@@ -4,7 +4,7 @@ body {
     min-height: 100%;
     min-width: 1024px;
   
-    /* Set up proportionate scaling */
+    /* Set up proportionate scaling */ 
     width: 100%;
     height: auto;
   
@@ -16,11 +16,64 @@ body {
 
 .background {
     background-color: black;
-    background-image: url(../assets/img/downloadfestival.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    src: url('../assets/fonts/MuseoSans_700.otf');
+    font-family: 'museo';
+}
+
+.poster {
+    background-image: url(../assets/img/downloadfestival.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-color: black;
+    height: 1000px;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 240px 0 0 12px;
+    height: auto;
+    width: 737px;
+  }
+
+  .grid-item-headliner {
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;   
+  }
+
+  .grid-item-sub {
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;   
+  }
+  .grid-item {
+ /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+  }
+
