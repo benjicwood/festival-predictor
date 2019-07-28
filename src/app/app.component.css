@@ -45,7 +45,9 @@ body {
   }
 
   .grid-item-headliner {
-    border: 1px solid white;
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -56,7 +58,9 @@ body {
   }
 
   .grid-item-sub {
-    border: 1px solid white;
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -67,7 +71,9 @@ body {
   }
   .grid-item {
  /* background-color: rgba(255, 255, 255, 0.8); */
-    border: 1px solid white;
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
