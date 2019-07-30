@@ -1,0 +1,274 @@
+
+body {  
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+  
+    /* Set up proportionate scaling */ 
+    width: 100%;
+    height: auto;
+  
+    /* Set up positioning */
+    position: fixed;
+    margin: 0;
+    left: 0;
+}  
+
+.background {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url('../../assets/fonts/MuseoSans_700.otf');
+    font-family: 'museo';
+}
+
+.poster {
+    background-image: url(../../assets/img/downloadfestival.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-color: black;
+    height: 1000px;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 240px 0 0 12px;
+    height: auto;
+    width: 737px;
+  }
+
+  .grid-item-headliner {
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;   
+  }
+
+  .grid-item-sub {
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;   
+  }
+  .grid-item {
+ /* background-color: rgba(255, 255, 255, 0.8); */
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+  }
+
+.metallica {
+  background-image: url(../../assets/headliners/metallica.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.kiss {
+  background-image: url(../../assets/headliners/kiss.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.acdc {
+  background-image: url(../../assets/headliners/acdc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.nineinchnails {
+  background-image: url(../../assets/headliners/nineinchnails.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 8px solid transparent;
+}
+
+.gojira {
+  background-image: url(../../assets/subs/gojira.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+
+}
+
+.korn {
+  background-image: url(../../assets/subs/korn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ghost {
+  background-image: url(../../assets/subs/ghost.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.judaspriest {
+  background-image: url(../../assets/subs/judaspriest.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.royalblood {
+  background-image: url(../../assets/subs/royalblood.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aliceinchains {
+  background-image: url(../../assets/subs/aliceinchains.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rammstein {
+  background-image: url(../../assets/headliners/rammstein.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 1px solid transparent;
+}
+
+.blink182 {
+  background-image: url(../../assets/headliners/blink182.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adtr {
+  background-image: url(../../assets/headliners/adtr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+
+}
+
+.foofighters {
+  background-image: url(../../assets/headliners/foofighters.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pearljam {
+  background-image: url(../../assets/headliners/pearljam.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ironmaiden {
+  background-image: url(../../assets/headliners/ironmaiden.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+
+}
+
+.slipknot {
+  background-image: url(../../assets/headliners/slipknot.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.qotsa {
+  background-image: url(../../assets/headliners/qotsa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alterbridge {
+  background-image: url(../../assets/headliners/alterbridge.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.greenday {
+  background-image: url(../../assets/headliners/greenday.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.biffyclyro {
+  background-image: url(../../assets/headliners/biffyclyro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bmth {
+  background-image: url(../../assets/headliners/bmth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.tool {
+  background-image: url(../../assets/headliners/tool.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 10px solid transparent;
+}
+
+.gnr {
+  background-image: url(../../assets/headliners/gnr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soad {
+  background-image: url(../../assets/headliners/soad.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+
+}
