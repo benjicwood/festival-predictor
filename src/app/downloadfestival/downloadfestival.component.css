@@ -1,18 +1,18 @@
 
-body {  
+body {
     /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
-  
-    /* Set up proportionate scaling */ 
+
+    /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-  
+
     /* Set up positioning */
     position: fixed;
     margin: 0;
     left: 0;
-}  
+}
 
 .background {
     background-color: black;
@@ -30,10 +30,11 @@ body {
     background-image: url(../../assets/img/downloadfestival.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: left; 
+    background-position: left;
     background-color: black;
     height: 1000px;
     padding: 0;
+    display: flex;
 }
 
 .grid-container {
@@ -44,36 +45,45 @@ body {
     width: 737px;
   }
 
+
+  .grid-container2 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 240px 0 0 12px;
+      height: auto;
+      width: 737px;
+    }
+
   .grid-item-headliner {
     border: white;
     border-radius: 1px;
-    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    height: 70px;   
+    height: 70px;
   }
 
   .grid-item-sub {
     border: white;
     border-radius: 1px;
-    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    height: 50px;   
+    height: 50px;
   }
   .grid-item {
  /* background-color: rgba(255, 255, 255, 0.8); */
     border: white;
     border-radius: 1px;
-    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
     padding: 5px;
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -131,7 +141,7 @@ body {
 }
 
 .ghost {
-  background-image: url(../../assets/subs/ghost.png);
+  background-image: url(../../assets/headliners/ghost.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

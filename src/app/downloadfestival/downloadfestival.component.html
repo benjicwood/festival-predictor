@@ -1,16 +1,17 @@
 <body class="background">
 
     <div class="poster">
+	    <div>
     <div class="grid-container">
       <input id="friday-headliner" class="grid-item-headliner" type="text" name="">
       <input id="saturday-headliner" class="grid-item-headliner" type="text" name="">
       <input id="sunday-headliner" class="grid-item-headliner" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
-      <input class="grid-item-sub" type="text" name="">
+      <input id="friday-sub1" class="grid-item-sub" type="text" name="">
+      <input id="saturday-sub1" class="grid-item-sub" type="text" name="">
+      <input id="sunday-sub1" class="grid-item-sub" type="text" name="">
+      <input id="friday-sub2" class="grid-item-sub" type="text" name="">
+      <input id="saturday-sub2" class="grid-item-sub" type="text" name="">
+      <input id="sunday-sub2" class="grid-item-sub" type="text" name="">
       <input class="grid-item" type="text" name="">
       <input class="grid-item" type="text" name="">
       <input class="grid-item" type="text" name="">
@@ -24,81 +25,102 @@
       <input class="grid-item" type="text" name="">
       <input class="grid-item" type="text" name="">
     </div>
-  
-    <select [(ngModel)]="fridayHeadliner" style="float:right; color:white" (change)="setFridayHeadliner()">
-        <option value="acdc">AC/DC</option>
-        <option value="adtr">A Day To Remember</option>
-        <option value="alterbridge">Alter Bridge</option>
-        <option value="biffyclyro">Biffy Clyro</option>
-        <option value="blink182">Blink-182</option>
-        <option value="bmth">Bring Me The Horizon</option>
-        <option value="foofighters">Foo Fighters</option>
-        <option value="ghost">Ghost</option>
-        <option value="greenday">Green Day</option>
-        <option value="gnr">Gun N' Roses</option>
-        <option value="ironmaiden">Iron Maiden</option>
-        <option value="kiss">KISS</option>
-        <option value="metallica">Metallica</option>
-        <option value="nineinchnails">Nine Inch Nails</option>
-        <option value="pearljam">Pearl Jam</option>
-        <option value="qotsa">Queens of the Stone Age</option>
-        <option value="rammstein">Rammstein</option>
-        <option value="slipknot">Slipknot</option>
-        <option value="soad">System Of A Down</option>
-        <option value="tool">Tool</option>
-
-  
-      </select>
-      <select [(ngModel)]="saturdayHeadliner" style="float:right; color:white" (change)="setSaturdayHeadliner()">
-          <option value="acdc">AC/DC</option>
-          <option value="adtr">A Day To Remember</option>
-          <option value="alterbridge">Alter Bridge</option>
-          <option value="biffyclyro">Biffy Clyro</option>
-          <option value="blink182">Blink-182</option>
-          <option value="bmth">Bring Me The Horizon</option>
-          <option value="foofighters">Foo Fighters</option>
-          <option value="ghost">Ghost</option>
-          <option value="greenday">Green Day</option>
-          <option value="gnr">Gun N' Roses</option>
-          <option value="ironmaiden">Iron Maiden</option>
-          <option value="kiss">KISS</option>
-          <option value="metallica">Metallica</option>
-          <option value="nineinchnails">Nine Inch Nails</option>
-          <option value="pearljam">Pearl Jam</option>
-          <option value="qotsa">Queens of the Stone Age</option>
-          <option value="rammstein">Rammstein</option>
-          <option value="slipknot">Slipknot</option>
-          <option value="soad">System Of A Down</option>
-          <option value="tool">Tool</option>
-
-
-        </select>
-
-        <select [(ngModel)]="sundayHeadliner" style="float:right; color:white" (change)="setSundayHeadliner()">
-            <option value="acdc">AC/DC</option>
-            <option value="adtr">A Day To Remember</option>
-            <option value="alterbridge">Alter Bridge</option>
-            <option value="biffyclyro">Biffy Clyro</option>
-            <option value="blink182">Blink-182</option>
-            <option value="bmth">Bring Me The Horizon</option>
-            <option value="foofighters">Foo Fighters</option>
-            <option value="ghost">Ghost</option>
-            <option value="greenday">Green Day</option>
-            <option value="gnr">Gun N' Roses</option>
-            <option value="ironmaiden">Iron Maiden</option>
-            <option value="kiss">KISS</option>
-            <option value="metallica">Metallica</option>
-            <option value="nineinchnails">Nine Inch Nails</option>
-            <option value="pearljam">Pearl Jam</option>
-            <option value="qotsa">Queens of the Stone Age</option>
-            <option value="rammstein">Rammstein</option>
-            <option value="slipknot">Slipknot</option>
-            <option value="soad">System Of A Down</option>
-            <option value="tool">Tool</option>
-          </select>
-  
     </div>
-  
-  
-  
+
+		<div class="grid-container2">
+			<div class="grid-item" type="text" name="">
+				<select [(ngModel)]="fridayHeadliner" style="float:right; color:white" (change)="setFridayHeadliner()">
+			        <option value="acdc">AC/DC</option>
+			        <option value="adtr">A Day To Remember</option>
+			        <option value="alterbridge">Alter Bridge</option>
+			        <option value="biffyclyro">Biffy Clyro</option>
+			        <option value="blink182">Blink-182</option>
+			        <option value="bmth">Bring Me The Horizon</option>
+			        <option value="foofighters">Foo Fighters</option>
+			        <option value="ghost">Ghost</option>
+			        <option value="greenday">Green Day</option>
+			        <option value="gnr">Gun N' Roses</option>
+			        <option value="ironmaiden">Iron Maiden</option>
+			        <option value="kiss">KISS</option>
+			        <option value="metallica">Metallica</option>
+			        <option value="nineinchnails">Nine Inch Nails</option>
+			        <option value="pearljam">Pearl Jam</option>
+			        <option value="qotsa">Queens of the Stone Age</option>
+			        <option value="rammstein">Rammstein</option>
+			        <option value="slipknot">Slipknot</option>
+			        <option value="soad">System Of A Down</option>
+			        <option value="tool">Tool</option>
+			      </select>
+			 </div>
+			<div class="grid-item" type="text" name="">
+				<select [(ngModel)]="saturdayHeadliner" style="float:right; color:white" (change)="setSaturdayHeadliner()">
+			          <option value="acdc">AC/DC</option>
+			          <option value="adtr">A Day To Remember</option>
+			          <option value="alterbridge">Alter Bridge</option>
+			          <option value="biffyclyro">Biffy Clyro</option>
+			          <option value="blink182">Blink-182</option>
+			          <option value="bmth">Bring Me The Horizon</option>
+			          <option value="foofighters">Foo Fighters</option>
+			          <option value="ghost">Ghost</option>
+			          <option value="greenday">Green Day</option>
+			          <option value="gnr">Gun N' Roses</option>
+			          <option value="ironmaiden">Iron Maiden</option>
+			          <option value="kiss">KISS</option>
+			          <option value="metallica">Metallica</option>
+			          <option value="nineinchnails">Nine Inch Nails</option>
+			          <option value="pearljam">Pearl Jam</option>
+			          <option value="qotsa">Queens of the Stone Age</option>
+			          <option value="rammstein">Rammstein</option>
+			          <option value="slipknot">Slipknot</option>
+			          <option value="soad">System Of A Down</option>
+			          <option value="tool">Tool</option>
+			        </select>
+			   </div>
+			<div class="grid-item" type="text" name="">
+			        <select [(ngModel)]="sundayHeadliner" style="float:right; color:white" (change)="setSundayHeadliner()">
+			            <option value="acdc">AC/DC</option>
+			            <option value="adtr">A Day To Remember</option>
+			            <option value="alterbridge">Alter Bridge</option>
+			            <option value="biffyclyro">Biffy Clyro</option>
+			            <option value="blink182">Blink-182</option>
+			            <option value="bmth">Bring Me The Horizon</option>
+			            <option value="foofighters">Foo Fighters</option>
+			            <option value="ghost">Ghost</option>
+			            <option value="greenday">Green Day</option>
+			            <option value="gnr">Gun N' Roses</option>
+			            <option value="ironmaiden">Iron Maiden</option>
+			            <option value="kiss">KISS</option>
+			            <option value="metallica">Metallica</option>
+			            <option value="nineinchnails">Nine Inch Nails</option>
+			            <option value="pearljam">Pearl Jam</option>
+			            <option value="qotsa">Queens of the Stone Age</option>
+			            <option value="rammstein">Rammstein</option>
+			            <option value="slipknot">Slipknot</option>
+			            <option value="soad">System Of A Down</option>
+			            <option value="tool">Tool</option>
+			          </select>
+				</div>
+			<div class="grid-item" type="text" name="">
+				<select [(ngModel)]="fridaySub1" style="float:right; color:white" (change)="setFridaySub1()">
+			        <option value="adtr">A Day To Remember</option>
+				   <option value="aliceinchains">Alice in Chains</option>
+			        <option value="alterbridge">Alter Bridge</option>
+			        <option value="ghost">Ghost</option>
+				   <option value="gojira">Gojira</option>
+				   <option value="judaspriest">Judas Priest</option>
+				   <option value="korn">Korn</option>
+			        <option value="nineinchnails">Nine Inch Nails</option>
+				   <option value="royalblood">Royal Blood</option>
+
+			      </select>
+			</div>
+			<div class="grid-item" type="text" name="">5</div>
+			<div class="grid-item" type="text" name="">6</div>
+			<div class="grid-item" type="text" name="">7</div>
+			<div class="grid-item" type="text" name="">8</div>
+			<div class="grid-item" type="text" name="">9</div>
+		 </div>
+
+    </div>
+
   </body>
