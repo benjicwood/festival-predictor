@@ -30,244 +30,49 @@
 		<div class="grid-container2">
 			<div class="grid-item" type="text" name="">
 				<select [(ngModel)]="fridayHeadliner" style="float:right; color:white" (change)="setFridayHeadliner()">
-			        <option value="acdc">AC/DC</option>
-			        <option value="adtr">A Day To Remember</option>
-              <option value="alterbridge">Alter Bridge</option>
-              <option value="a7x">Avenged Sevenfold</option>
-			        <option value="biffyclyro">Biffy Clyro</option>
-			        <option value="blink182">Blink-182</option>
-              <option value="bmth">Bring Me The Horizon</option>
-              <option value="thecure">The Cure</option>
-              <option value="defleppard">Def Leppard</option>
-			        <option value="foofighters">Foo Fighters</option>
-			        <option value="ghost">Ghost</option>
-			        <option value="greenday">Green Day</option>
-			        <option value="gnr">Gun N' Roses</option>
-			        <option value="ironmaiden">Iron Maiden</option>
-			        <option value="kiss">KISS</option>
-			        <option value="metallica">Metallica</option>
-			        <option value="nineinchnails">Nine Inch Nails</option>
-			        <option value="pearljam">Pearl Jam</option>
-			        <option value="qotsa">Queens of the Stone Age</option>
-			        <option value="rammstein">Rammstein</option>
-			        <option value="slipknot">Slipknot</option>
-			        <option value="soad">System Of A Down</option>
-			        <option value="tool">Tool</option>
+            <option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
 			      </select>
 			 </div>
 			<div class="grid-item" type="text" name="">
 				<select [(ngModel)]="saturdayHeadliner" style="float:right; color:white" (change)="setSaturdayHeadliner()">
-			          <option value="acdc">AC/DC</option>
-			          <option value="adtr">A Day To Remember</option>
-                <option value="alterbridge">Alter Bridge</option>
-                <option value="a7x">Avenged Sevenfold</option>
-			          <option value="biffyclyro">Biffy Clyro</option>
-			          <option value="blink182">Blink-182</option>
-                <option value="bmth">Bring Me The Horizon</option>
-                <option value="thecure">The Cure</option>
-                <option value="defleppard">Def Leppard</option>
-			          <option value="foofighters">Foo Fighters</option>
-			          <option value="ghost">Ghost</option>
-			          <option value="greenday">Green Day</option>
-			          <option value="gnr">Gun N' Roses</option>
-			          <option value="ironmaiden">Iron Maiden</option>
-			          <option value="kiss">KISS</option>
-			          <option value="metallica">Metallica</option>
-			          <option value="nineinchnails">Nine Inch Nails</option>
-			          <option value="pearljam">Pearl Jam</option>
-			          <option value="qotsa">Queens of the Stone Age</option>
-			          <option value="rammstein">Rammstein</option>
-			          <option value="slipknot">Slipknot</option>
-			          <option value="soad">System Of A Down</option>
-			          <option value="tool">Tool</option>
+            <option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
 			        </select>
 			   </div>
 			<div class="grid-item" type="text" name="">
 			        <select [(ngModel)]="sundayHeadliner" style="float:right; color:white" (change)="setSundayHeadliner()">
-			            <option value="acdc">AC/DC</option>
-			            <option value="adtr">A Day To Remember</option>
-                  <option value="alterbridge">Alter Bridge</option>
-                  <option value="a7x">Avenged Sevenfold</option>
-			            <option value="biffyclyro">Biffy Clyro</option>
-			            <option value="blink182">Blink-182</option>
-                  <option value="bmth">Bring Me The Horizon</option>
-                  <option value="thecure">The Cure</option>
-                  <option value="defleppard">Def Leppard</option>
-			            <option value="foofighters">Foo Fighters</option>
-			            <option value="ghost">Ghost</option>
-			            <option value="greenday">Green Day</option>
-			            <option value="gnr">Gun N' Roses</option>
-			            <option value="ironmaiden">Iron Maiden</option>
-			            <option value="kiss">KISS</option>
-			            <option value="metallica">Metallica</option>
-			            <option value="nineinchnails">Nine Inch Nails</option>
-			            <option value="pearljam">Pearl Jam</option>
-			            <option value="qotsa">Queens of the Stone Age</option>
-			            <option value="rammstein">Rammstein</option>
-			            <option value="slipknot">Slipknot</option>
-			            <option value="soad">System Of A Down</option>
-			            <option value="tool">Tool</option>
+                  <option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
 			          </select>
 				</div>
 			<div class="grid-item" type="text" name="">
 				<select [(ngModel)]="fridaySub1" style="float:right; color:white" (change)="setFridaySub1()">
-              <option value="adtr">A Day To Remember</option>
-              <option value="againstme">Against Me!</option>
-              <option value="alicecooper">Alice Cooper</option>
-              <option value="aliceinchains">Alice in Chains</option>
-              <option value="alltimelow">All Time Low</option>
-              <option value="alterbridge">Alter Bridge</option>
-              <option value="babymetal">BabyMetal</option>
-              <option value="billieeilish">Billie Eilish</option>
-				      <option value="billytalent">Billy Talent</option>
-				      <option value="bsc">Black Stone Cherry</option>
-				      <option value="chvrches">Chvrches</option>
-				      <option value="converge">Converge</option>
-              <option value="deftones">Deftones</option>
-              <option value="disturbed">Disturbed</option>
-              <option value="donbroco">Don Broco</option>
-              <option value="evanescence">Evanescence</option>
-				      <option value="fcandtherattlesnakes">Frank Carter & the Rattlesnakes</option>
-			        <option value="ghost">Ghost</option>
-              <option value="gojira">Gojira</option>
-              <option value="hollywoodvampires">Hollywood Vampires</option>
-              <option value="idles">Idles</option>
-				      <option value="judaspriest">Judas Priest</option>
-              <option value="korn">Korn</option>
-              <option value="kse">Killswitch Engage</option>
-				      <option value="limpbizkit">Limp Bizkit</option>
-              <option value="machinehead">Machine Head</option>
-              <option value="marmozets">Marmozets</option>
-              <option value="themarsvolta">The Mars Volta</option>
-				      <option value="mastodon">Mastodon</option>
-				      <option value="mercyfulfate">Mercyful Fate</option>
-				      <option value="misfits">Misfits</option>
-				      <option value="nightwish">Nightwish</option>
-              <option value="nineinchnails">Nine Inch Nails</option>
-              <option value="theoffspring">The Offspring</option>
-              <option value="paparoach">Papa Roach</option>
-              <option value="primus">Primus</option>
-				      <option value="rancid">Rancid</option>
-				      <option value="rivalsons">Rival Sons</option>
-              <option value="royalblood">Royal Blood</option>
-              <option value="runthejewels">Run the Jewels</option>
-              <option value="sabaton">Sabaton</option>
-              <option value="staind">Staind</option>
-              <option value="stonesour">Stone Sour</option>
-				      <option value="sum41">Sum 41</option>
-				      <option value="testament">Testament</option>
-              <option value="volbeat">Volbeat</option>
-              <option value="weezer">Weezer</option>
-				      <option value="withintemptation">Within Temptation</option>
+            <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			  </select>
 			</div>
 			<div class="grid-item" type="text" name="">
           <select [(ngModel)]="saturdaySub1" style="float:right; color:white" (change)="setSaturdaySub1()">
-              <option value="adtr">A Day To Remember</option>
-              <option value="againstme">Against Me!</option>
-              <option value="alicecooper">Alice Cooper</option>
-              <option value="aliceinchains">Alice in Chains</option>
-              <option value="alltimelow">All Time Low</option>
-              <option value="alterbridge">Alter Bridge</option>
-              <option value="babymetal">BabyMetal</option>
-              <option value="billieeilish">Billie Eilish</option>
-				      <option value="billytalent">Billy Talent</option>
-				      <option value="bsc">Black Stone Cherry</option>
-				      <option value="chvrches">Chvrches</option>
-				      <option value="converge">Converge</option>
-              <option value="deftones">Deftones</option>
-              <option value="disturbed">Disturbed</option>
-              <option value="donbroco">Don Broco</option>
-              <option value="evanescence">Evanescence</option>
-				      <option value="fcandtherattlesnakes">Frank Carter & the Rattlesnakes</option>
-			        <option value="ghost">Ghost</option>
-              <option value="gojira">Gojira</option>
-              <option value="hollywoodvampires">Hollywood Vampires</option>
-              <option value="idles">Idles</option>
-				      <option value="judaspriest">Judas Priest</option>
-              <option value="korn">Korn</option>
-              <option value="kse">Killswitch Engage</option>
-				      <option value="limpbizkit">Limp Bizkit</option>
-              <option value="machinehead">Machine Head</option>
-              <option value="marmozets">Marmozets</option>
-              <option value="themarsvolta">The Mars Volta</option>
-				      <option value="mastodon">Mastodon</option>
-				      <option value="mercyfulfate">Mercyful Fate</option>
-				      <option value="misfits">Misfits</option>
-				      <option value="nightwish">Nightwish</option>
-              <option value="nineinchnails">Nine Inch Nails</option>
-              <option value="theoffspring">The Offspring</option>
-              <option value="paparoach">Papa Roach</option>
-              <option value="primus">Primus</option>
-				      <option value="rancid">Rancid</option>
-				      <option value="rivalsons">Rival Sons</option>
-              <option value="royalblood">Royal Blood</option>
-              <option value="runthejewels">Run the Jewels</option>
-              <option value="sabaton">Sabaton</option>
-              <option value="staind">Staind</option>
-              <option value="stonesour">Stone Sour</option>
-				      <option value="sum41">Sum 41</option>
-				      <option value="testament">Testament</option>
-              <option value="volbeat">Volbeat</option>
-              <option value="weezer">Weezer</option>
-				      <option value="withintemptation">Within Temptation</option>
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
 			<div class="grid-item" type="text" name="">
           <select [(ngModel)]="sundaySub1" style="float:right; color:white" (change)="setSundaySub1()">
-              <option value="adtr">A Day To Remember</option>
-              <option value="againstme">Against Me!</option>
-              <option value="alicecooper">Alice Cooper</option>
-              <option value="aliceinchains">Alice in Chains</option>
-              <option value="alltimelow">All Time Low</option>
-              <option value="alterbridge">Alter Bridge</option>
-              <option value="babymetal">BabyMetal</option>
-              <option value="billieeilish">Billie Eilish</option>
-				      <option value="billytalent">Billy Talent</option>
-				      <option value="bsc">Black Stone Cherry</option>
-				      <option value="chvrches">Chvrches</option>
-				      <option value="converge">Converge</option>
-              <option value="deftones">Deftones</option>
-              <option value="disturbed">Disturbed</option>
-              <option value="donbroco">Don Broco</option>
-              <option value="evanescence">Evanescence</option>
-				      <option value="fcandtherattlesnakes">Frank Carter & the Rattlesnakes</option>
-			        <option value="ghost">Ghost</option>
-              <option value="gojira">Gojira</option>
-              <option value="hollywoodvampires">Hollywood Vampires</option>
-              <option value="idles">Idles</option>
-				      <option value="judaspriest">Judas Priest</option>
-              <option value="korn">Korn</option>
-              <option value="kse">Killswitch Engage</option>
-				      <option value="limpbizkit">Limp Bizkit</option>
-              <option value="machinehead">Machine Head</option>
-              <option value="marmozets">Marmozets</option>
-              <option value="themarsvolta">The Mars Volta</option>
-				      <option value="mastodon">Mastodon</option>
-				      <option value="mercyfulfate">Mercyful Fate</option>
-				      <option value="misfits">Misfits</option>
-				      <option value="nightwish">Nightwish</option>
-              <option value="nineinchnails">Nine Inch Nails</option>
-              <option value="theoffspring">The Offspring</option>
-              <option value="paparoach">Papa Roach</option>
-              <option value="primus">Primus</option>
-				      <option value="rancid">Rancid</option>
-				      <option value="rivalsons">Rival Sons</option>
-              <option value="royalblood">Royal Blood</option>
-              <option value="runthejewels">Run the Jewels</option>
-              <option value="sabaton">Sabaton</option>
-              <option value="staind">Staind</option>
-              <option value="stonesour">Stone Sour</option>
-				      <option value="sum41">Sum 41</option>
-				      <option value="testament">Testament</option>
-              <option value="volbeat">Volbeat</option>
-              <option value="weezer">Weezer</option>
-				      <option value="withintemptation">Within Temptation</option>
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
-			<div class="grid-item" type="text" name="">7</div>
-			<div class="grid-item" type="text" name="">8</div>
-			<div class="grid-item" type="text" name="">9</div>
+			<div class="grid-item" type="text" name="">
+          <select [(ngModel)]="fridaySub2" style="float:right; color:white" (change)="setFridaySub2()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+			<div class="grid-item" type="text" name="">
+          <select [(ngModel)]="saturdaySub2" style="float:right; color:white" (change)="setSaturdaySub2()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+			<div class="grid-item" type="text" name="">
+          <select [(ngModel)]="sundaySub2" style="float:right; color:white" (change)="setSundaySub2()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
 		 </div>
 
     </div>

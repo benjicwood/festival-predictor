@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { headlinersList, subsList } from  './data/bands';
+
 @Component({
   selector: 'app-downloadfestival',
   templateUrl: './downloadfestival.component.html',
@@ -19,6 +21,9 @@ export class DownloadfestivalComponent {
   public sundaySub1: string;
   public sundaySub2: string;
 
+  // public headliners = headlinerList
+  public headliners = headlinersList;
+  public subs = subsList;
 
   // Friday
   public setFridayHeadliner(): any {
