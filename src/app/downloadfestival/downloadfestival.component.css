@@ -282,6 +282,14 @@ body {
   border: 4px solid transparent;
 }
 
+.thecure {
+  background-image: url(../../assets/headliners/thecure.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
 .a7x {
   background-image: url(../../assets/headliners/a7x.png);
   background-size: contain;
@@ -393,6 +401,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 6px solid transparent;
 }
 
 .limpbizkit {
@@ -508,4 +517,87 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 4px solid transparent;
+}
+
+.againstme {
+  background-image: url(../../assets/subs/againstme.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.alicecooper {
+  background-image: url(../../assets/subs/alicecooper.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.disturbed {
+  background-image: url(../../assets/subs/disturbed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hollywoodvampires {
+  background-image: url(../../assets/subs/hollywoodvampires.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.marmozets {
+  background-image: url(../../assets/subs/marmozets.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 12px solid transparent;
+}
+
+.primus {
+  background-image: url(../../assets/subs/primus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.staind {
+  background-image: url(../../assets/subs/staind.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stonesour {
+  background-image: url(../../assets/subs/stonesour.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.themarsvolta {
+  background-image: url(../../assets/subs/themarsvolta.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 8px solid transparent;
+}
+
+.weezer {
+  background-image: url(../../assets/subs/weezer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.theoffspring {
+  background-image: url(../../assets/subs/theoffspring.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
 }
