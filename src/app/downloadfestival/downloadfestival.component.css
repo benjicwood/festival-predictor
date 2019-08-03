@@ -280,5 +280,232 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 4px solid transparent;
+}
 
+.a7x {
+  background-image: url(../../assets/headliners/a7x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.defleppard {
+  background-image: url(../../assets/headliners/defleppard.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.alltimelow {
+  background-image: url(../../assets/subs/alltimelow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.babymetal {
+  background-image: url(../../assets/subs/babymetal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.billieeilish {
+  background-image: url(../../assets/subs/billieeilish.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 12px solid transparent;
+}
+
+.billytalent {
+  background-image: url(../../assets/subs/billytalent.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 12px solid transparent;
+
+}
+
+.bsc {
+  background-image: url(../../assets/subs/bsc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chvrches {
+  background-image: url(../../assets/subs/chvrches.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+
+}
+
+.converge {
+  background-image: url(../../assets/subs/converge.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deftones {
+  background-image: url(../../assets/subs/deftones.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.donbroco {
+  background-image: url(../../assets/subs/donbroco.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.evanescence {
+  background-image: url(../../assets/subs/evanescence.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fcandtherattlesnakes {
+  background-image: url(../../assets/subs/fc&therattlesnakes.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.idles {
+  background-image: url(../../assets/subs/idles.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.kse {
+  background-image: url(../../assets/subs/kse.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.limpbizkit {
+  background-image: url(../../assets/subs/limpbizkit.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.machinehead {
+  background-image: url(../../assets/subs/machinehead.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mastodon {
+  background-image: url(../../assets/subs/mastodon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mercyfulfate {
+  background-image: url(../../assets/subs/mercyfulfate.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.misfits {
+  background-image: url(../../assets/subs/misfits.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nightwish {
+  background-image: url(../../assets/subs/nightwish.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paparoach {
+  background-image: url(../../assets/subs/paparoach.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.parkwaydrive {
+  background-image: url(../../assets/subs/parkwaydrive.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rancid {
+  background-image: url(../../assets/subs/rancid.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.rivalsons {
+  background-image: url(../../assets/subs/rivalsons.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.runthejewels {
+  background-image: url(../../assets/subs/runthejewels.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sabaton {
+  background-image: url(../../assets/subs/sabaton.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sum41 {
+  background-image: url(../../assets/subs/sum41.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.testament {
+  background-image: url(../../assets/subs/testament.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.volbeat {
+  background-image: url(../../assets/subs/volbeat.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.withintemptation {
+  background-image: url(../../assets/subs/withintemptation.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
 }
