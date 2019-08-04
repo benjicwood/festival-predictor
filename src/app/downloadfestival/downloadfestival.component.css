@@ -689,11 +689,28 @@ body {
   border: 2px solid transparent;
 }
 
+.airbourne {
+  background-image: url(../../assets/midsize/airbourne.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+
 .marilynmanson {
   background-image: url(../../assets/subs/marilynmanson.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.neckdeep {
+  background-image: url(../../assets/midsize/neckdeep.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 8px solid transparent;
 }
 
 .alkalinetrio {
@@ -849,6 +866,177 @@ body {
 
 .zebrahead {
   background-image: url(../../assets/midsize/zebrahead.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ghostwriters {
+  background-image: url(../../assets/smallsize/ghostwriters.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aild {
+  background-image: url(../../assets/smallsize/aild.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.anaalnathrakh {
+  background-image: url(../../assets/smallsize/anaalnathrakh.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.andrewwk {
+  background-image: url(../../assets/smallsize/andrewwk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.carpenterbrut {
+  background-image: url(../../assets/smallsize/carpenterbrut.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.codeorange {
+  background-image: url(../../assets/smallsize/codeorange.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.cultofluna {
+  background-image: url(../../assets/smallsize/cultofluna.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.deicide {
+  background-image: url(../../assets/smallsize/deicide.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dimmuborgir {
+  background-image: url(../../assets/smallsize/dimmuborgir.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inme {
+  background-image: url(../../assets/smallsize/inme.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.killingjoke {
+  background-image: url(../../assets/smallsize/killingjoke.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.milkteeth {
+  background-image: url(../../assets/smallsize/milkteeth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.ministry {
+  background-image: url(../../assets/smallsize/ministry.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.monuments {
+  background-image: url(../../assets/smallsize/monuments.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.mykur {
+  background-image: url(../../assets/smallsize/mykur.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.napalmdeath {
+  background-image: url(../../assets/smallsize/napalmdeath.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oathbreaker {
+  background-image: url(../../assets/smallsize/oathbreaker.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.russiancircles {
+  background-image: url(../../assets/smallsize/russiancircles.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.sftp {
+  background-image: url(../../assets/smallsize/sftp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.suicidesilence {
+  background-image: url(../../assets/smallsize/suicidesilence.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tbdm {
+  background-image: url(../../assets/smallsize/tbdm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.thyartismurder {
+  background-image: url(../../assets/smallsize/thyartismurder.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.watain {
+  background-image: url(../../assets/smallsize/watain.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
