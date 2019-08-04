@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { headlinersList, subsList } from  './data/bands';
+import { headlinersList, subsList, thirdTierBands, fourthTierBands } from  './data/bands';
 
 @Component({
   selector: 'app-downloadfestival',
@@ -9,21 +9,44 @@ import { headlinersList, subsList } from  './data/bands';
 })
 export class DownloadfestivalComponent {
 
-  public fridayHeadliner: string;
-  public fridaySub1: string;
-  public fridaySub2: string;
+  public fridayHeadliner: string
+  public fridaySub1: string
+  public fridaySub2: string
 
-  public saturdayHeadliner: string;
-  public saturdaySub1: string;
-  public saturdaySub2: string;
+  public fridaySecondStageHeadliner: string
+  public fridaySecondStageSub: string
 
-  public sundayHeadliner: string;
-  public sundaySub1: string;
-  public sundaySub2: string;
+  public fridayThirdStageHeadliner: string
+
+  public fridayFourthStageHeadliner: string
+
+  public saturdayHeadliner: string
+  public saturdaySub1: string
+  public saturdaySub2: string
+
+  public saturdaySecondStageHeadliner: string
+  public saturdaySecondStageSub: string;
+
+  public saturdayThirdStageHeadliner: string
+
+  public saturdayFourthStageHeadliner: string
+
+  public sundayHeadliner: string
+  public sundaySub1: string
+  public sundaySub2: string
+
+  public sundaySecondStageHeadliner: string
+  public sundaySecondStageSub:string;
+
+  public sundayThirdStageHeadliner: string
+
+  public sundayFourthStageHeadliner: string
 
   // public headliners = headlinerList
-  public headliners = headlinersList;
-  public subs = subsList;
+  public headliners = headlinersList
+  public subs = subsList
+  public midsized = thirdTierBands
+  public smallsized = fourthTierBands
 
   // Friday
   public setFridayHeadliner(): any {
@@ -39,6 +62,26 @@ export class DownloadfestivalComponent {
   public setFridaySub2(): any {
     const v = document.getElementById("friday-sub2");
     v.classList.length === 1 ? v.classList.add(this.fridaySub2) : v.classList.replace(v.classList[1], this.fridaySub2);
+  }
+
+  public setFridaySecondStageHeadliner(): any {
+    const v = document.getElementById("friday-second-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.fridaySecondStageHeadliner) : v.classList.replace(v.classList[1], this.fridaySecondStageHeadliner);
+  }
+
+  public setFridaySecondStageSub(): any {
+    const v = document.getElementById("friday-second-stage-sub");
+    v.classList.length === 1 ? v.classList.add(this.fridaySecondStageSub) : v.classList.replace(v.classList[1], this.fridaySecondStageSub);
+  }
+
+  public setFridayThirdStageHeadliner(): any {
+    const v = document.getElementById("friday-third-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.fridayThirdStageHeadliner) : v.classList.replace(v.classList[1], this.fridayThirdStageHeadliner);
+  }
+
+  public setFridayFourthStageHeadliner(): any {
+    const v = document.getElementById("friday-fourth-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.fridayFourthStageHeadliner) : v.classList.replace(v.classList[1], this.fridayFourthStageHeadliner);
   }
 
 
@@ -58,6 +101,25 @@ export class DownloadfestivalComponent {
     v.classList.length === 1 ? v.classList.add(this.saturdaySub2) : v.classList.replace(v.classList[1], this.saturdaySub2);
   }
 
+  public setSaturdaySecondStageHeadliner(): any {
+    const v = document.getElementById("saturday-second-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.saturdaySecondStageHeadliner) : v.classList.replace(v.classList[1], this.saturdaySecondStageHeadliner);
+  }
+
+  public setSaturdaySecondStageSub(): any {
+    const v = document.getElementById("saturday-second-stage-sub");
+    v.classList.length === 1 ? v.classList.add(this.saturdaySecondStageSub) : v.classList.replace(v.classList[1], this.saturdaySecondStageSub);
+  }
+
+  public setSaturdayThirdStageHeadliner(): any {
+    const v = document.getElementById("saturday-third-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.saturdayThirdStageHeadliner) : v.classList.replace(v.classList[1], this.saturdayThirdStageHeadliner);
+  }
+
+  public setSaturdayFourthStageHeadliner(): any {
+    const v = document.getElementById("saturday-fourth-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.saturdayFourthStageHeadliner) : v.classList.replace(v.classList[1], this.saturdayFourthStageHeadliner);
+  }
 
   // Sunday
   public setSundayHeadliner(): any {
@@ -73,6 +135,26 @@ export class DownloadfestivalComponent {
   public setSundaySub2(): any {
     const v = document.getElementById("sunday-sub2");
     v.classList.length === 1 ? v.classList.add(this.sundaySub2) : v.classList.replace(v.classList[1], this.sundaySub2);
+  }
+
+  public setSundaySecondStageHeadliner(): any {
+    const v = document.getElementById("sunday-second-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.sundaySecondStageHeadliner) : v.classList.replace(v.classList[1], this.sundaySecondStageHeadliner);
+  }
+
+  public setSundaySecondStageSub(): any {
+    const v = document.getElementById("sunday-second-stage-sub");
+    v.classList.length === 1 ? v.classList.add(this.sundaySecondStageSub) : v.classList.replace(v.classList[1], this.sundaySecondStageSub);
+  }
+
+  public setSundayThirdStageHeadliner(): any {
+    const v = document.getElementById("sunday-third-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.sundayThirdStageHeadliner) : v.classList.replace(v.classList[1], this.sundayThirdStageHeadliner);
+  }
+
+  public setSundayFourthStageHeadliner(): any {
+    const v = document.getElementById("sunday-fourth-stage-headliner");
+    v.classList.length === 1 ? v.classList.add(this.sundayFourthStageHeadliner) : v.classList.replace(v.classList[1], this.sundayFourthStageHeadliner);
   }
 
 }

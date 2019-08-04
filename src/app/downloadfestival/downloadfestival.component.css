@@ -54,6 +54,15 @@ body {
       width: 737px;
     }
 
+    .grid-container3 {
+      color: white;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 240px 0 0 12px;
+      height: auto;
+      width: 737px;
+    }
+
   .grid-item-headliner {
     border: white;
     border-radius: 1px;
@@ -79,6 +88,33 @@ body {
     text-align: center;
     height: 50px;
   }
+
+  .grid-item-second-stage-headliner {
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+  }
+
+  .grid-item-second-stage-sub {
+    border: white;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    padding: 5px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+  }
+
   .grid-item {
  /* background-color: rgba(255, 255, 255, 0.8); */
     border: white;
@@ -92,6 +128,34 @@ body {
     text-align: center;
     height: 25px;
   }
+
+  .grid-item-midsize {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+       border: white;
+       border-radius: 1px;
+       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+       padding: 5px;
+       color: white;
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-weight: 700;
+       font-size: 13px;
+       text-align: center;
+       height: 25px;
+     }
+
+  .grid-item-third-stage {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+       border: white;
+       border-radius: 1px;
+       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+       padding: 5px;
+       color: white;
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-weight: 700;
+       font-size: 13px;
+       text-align: center;
+       height: 20px;
+     }
 
 .metallica {
   background-image: url(../../assets/headliners/metallica.png);
@@ -333,7 +397,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 12px solid transparent;
+  border: 6px solid transparent;
 
 }
 
@@ -476,6 +540,14 @@ body {
   background-position: center;
 }
 
+.architects {
+  background-image: url(../../assets/subs/architects.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
 .runthejewels {
   background-image: url(../../assets/subs/runthejewels.png);
   background-size: contain;
@@ -600,4 +672,184 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid transparent;
+}
+
+.ffdp {
+  background-image: url(../../assets/subs/5fdp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.entershikari {
+  background-image: url(../../assets/subs/entershikari.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.marilynmanson {
+  background-image: url(../../assets/subs/marilynmanson.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alkalinetrio {
+  background-image: url(../../assets/midsize/alkalinetrio.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ava {
+  background-image: url(../../assets/midsize/ava.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bfs {
+  background-image: url(../../assets/midsize/bfs.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.burytomorrow {
+  background-image: url(../../assets/midsize/burytomorrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.candc {
+  background-image: url(../../assets/midsize/candc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creeper {
+  background-image: url(../../assets/midsize/creeper.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.devintownsend {
+  background-image: url(../../assets/midsize/devintownsend.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dropkickmurphys {
+  background-image: url(../../assets/midsize/dropkickmurphys.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.goodcharlotte {
+  background-image: url(../../assets/midsize/goodcharlotte.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gvf {
+  background-image: url(../../assets/midsize/gvf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.jew {
+  background-image: url(../../assets/midsize/jew.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.menzingers {
+  background-image: url(../../assets/midsize/menzingers.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.periphery {
+  background-image: url(../../assets/midsize/periphery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.piercetheveil {
+  background-image: url(../../assets/midsize/piercetheveil.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.refused {
+  background-image: url(../../assets/midsize/refused.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.saxon {
+  background-image: url(../../assets/midsize/saxon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.thedistillers {
+  background-image: url(../../assets/midsize/thedistillers.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.theghostinside {
+  background-image: url(../../assets/midsize/theghostinside.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.theprettyreckless {
+  background-image: url(../../assets/midsize/theprettyreckless.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wildhearts {
+  background-image: url(../../assets/midsize/wildhearts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wss {
+  background-image: url(../../assets/midsize/wss.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.zebrahead {
+  background-image: url(../../assets/midsize/zebrahead.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -2,6 +2,9 @@
 
     <div class="poster">
 	    <div>
+
+        <!-- Main Stage -->
+
     <div class="grid-container">
       <input id="friday-headliner" class="grid-item-headliner" type="text" name="">
       <input id="saturday-headliner" class="grid-item-headliner" type="text" name="">
@@ -24,10 +27,74 @@
       <input class="grid-item" type="text" name="">
       <input class="grid-item" type="text" name="">
       <input class="grid-item" type="text" name="">
+
+     <div style="height:10px"></div>
+     <div stlye="height:10px"></div>
+     <div style="height:10px"></div>
+
+      <input id="friday-second-stage-headliner" class="grid-item-second-stage-headliner" type="text" name="">
+      <input id="saturday-second-stage-headliner" class="grid-item-second-stage-headliner" type="text" name="">
+      <input id="sunday-second-stage-headliner" class="grid-item-second-stage-headliner" type="text" name="">
+      <input id="friday-second-stage-sub" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="saturday-second-stage-sub" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="sunday-second-stage-sub" class="grid-item-second-stage-sub" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+      <input class="grid-item-midsize" type="text" name="">
+
+      <div style="height:10px"></div>
+      <div stlye="height:10px"></div>
+      <div style="height:10px"></div>
+
+      <input id="friday-third-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="saturday-third-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="sunday-third-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <div style="height:5px"></div>
+      <div stlye="height:5px"></div>
+      <div style="height:5px"></div>
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+
+      <div style="height:15px"></div>
+      <div stlye="height:15px"></div>
+      <div style="height:15px"></div>
+
+      <input id="friday-fourth-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="saturday-fourth-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <input id="sunday-fourth-stage-headliner" class="grid-item-second-stage-sub" type="text" name="">
+      <div style="height:5px"></div>
+      <div stlye="height:5px"></div>
+      <div style="height:5px"></div>
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+      <input class="grid-item-third-stage" type="text" name="">
+
     </div>
     </div>
 
-		<div class="grid-container2">
+    <div class="grid-container2">
 			<div class="grid-item" type="text" name="">
 				<select [(ngModel)]="fridayHeadliner" style="float:right; color:white" (change)="setFridayHeadliner()">
             <option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
@@ -71,6 +138,66 @@
 			<div class="grid-item" type="text" name="">
           <select [(ngModel)]="sundaySub2" style="float:right; color:white" (change)="setSundaySub2()">
               <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="fridaySecondStageHeadliner" style="float:right; color:white" (change)="setFridaySecondStageHeadliner()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="saturdaySecondStageHeadliner" style="float:right; color:white" (change)="setSaturdaySecondStageHeadliner()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="sundaySecondStageHeadliner" style="float:right; color:white" (change)="setSundaySecondStageHeadliner()">
+              <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="fridaySecondStageSub" style="float:right; color:white" (change)="setFridaySecondStageSub()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="saturdaySecondStageSub" style="float:right; color:white" (change)="setSaturdaySecondStageSub()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="sundaySecondStageSub" style="float:right; color:white" (change)="setSundaySecondStageSub()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="fridayThirdStageHeadliner" style="float:right; color:white" (change)="setFridayThirdStageHeadliner()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="saturdayThirdStageHeadliner" style="float:right; color:white" (change)="setSaturdayThirdStageHeadliner()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="sundayThirdStageHeadliner" style="float:right; color:white" (change)="setSundayThirdStageHeadliner()">
+              <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="fridayFourthStageHeadliner" style="float:right; color:white" (change)="setFridayFourthStageHeadliner()">
+              <option *ngFor="let band of smallsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="saturdayFourthStageHeadliner" style="float:right; color:white" (change)="setSaturdayFourthStageHeadliner()">
+              <option *ngFor="let band of smallsized" [value]="band.value">{{band.name}}</option>
+			  </select>
+      </div>
+      <div class="grid-item" type="text" name="">
+          <select [(ngModel)]="sundayFourthStageHeadliner" style="float:right; color:white" (change)="setSundayFourthStageHeadliner()">
+              <option *ngFor="let band of smallsized" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
 		 </div>
