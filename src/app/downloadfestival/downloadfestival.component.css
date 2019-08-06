@@ -351,7 +351,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 }
 
 .a7x {
@@ -473,6 +473,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .machinehead {
@@ -487,6 +488,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .mercyfulfate {
@@ -1037,6 +1039,19 @@ body {
 
 .watain {
   background-image: url(../../assets/smallsize/watain.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bfmv {
+  background-image: url(../../assets/subs/bfmv.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.trivium {
+  background-image: url(../../assets/subs/trivium.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
