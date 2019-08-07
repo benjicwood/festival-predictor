@@ -1056,3 +1056,80 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.afi {
+  background-image: url(../../assets/subs/afi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.megadeth {
+  background-image: url(../../assets/subs/megadeth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.alestorm {
+  background-image: url(../../assets/midsize/alestorm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.allthatremains {
+  background-image: url(../../assets/midsize/allthatremains.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.puddleofmudd {
+  background-image: url(../../assets/smallsize/puddleofmudd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.neurosis {
+  background-image: url(../../assets/smallsize/neurosis.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.helloween {
+  background-image: url(../../assets/smallsize/helloween.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.trophyeyes {
+  background-image: url(../../assets/midsize/trophyeyes.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.tssf {
+  background-image: url(../../assets/midsize/tssf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.scarlxrd {
+  background-image: url(../../assets/smallsize/scarlxrd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}

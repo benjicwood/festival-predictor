@@ -26,6 +26,7 @@ export const headlinersList: object = [
 
 export const subsList: object = [
     {value:  'adtr', name: 'A Day To Remember'  },
+    {value:  'afi', name: 'AFI'  },
     {value:  'alicecooper', name: 'Alice Cooper'  },
     {value:  'aliceinchains', name: 'Alice In Chains'  },
     {value:  'alltimelow', name: 'All Time Low'  },
@@ -57,6 +58,7 @@ export const subsList: object = [
     {value:  'marmozets', name: 'Marmozets'  },
     {value:  'themarsvolta', name: 'The Mars Volta'  },
     {value:  'mastodon', name: 'Mastodon'  },
+    {value:  'megadeth', name: 'Megadeth'  },
     {value:  'mercyfulfate', name: 'Mercyful Fate'  },
     {value:  'misfits', name: 'Misfits'  },
     {value:  'nightwish', name: 'Nightwish'  },
@@ -80,8 +82,11 @@ export const subsList: object = [
 ]
 
 export const thirdTierBands: object = [
+    {value:  'afi', name: 'AFI'  },
     {value: 'againstme', name: 'Against Me!'},
+    {value:  'alestorm', name: 'Alestorm'  },
     {value:  'alkalinetrio', name: 'Alkaline Trio'  },
+    {value:  'allthatremains', name: 'All That Remains'  },
     {value:  'airbourne', name: 'Airbourne'  },
     {value:  'ava', name: 'Angels and Airwaves'  },
     {value:  'billytalent', name: 'Billy Talent'  },
@@ -119,16 +124,19 @@ export const thirdTierBands: object = [
     {value:  'rivalsons', name: 'Rival Sons'  },
     {value:  'runthejewels', name: 'Run the Jewels'  },
     {value:  'saxon', name: 'Saxon'  },
+    {value:  'tssf', name: 'The Story So Far'  },
     {value:  'testament', name: 'Testament'  },
+    {value:  'trophyeyes', name: 'Trophy Eyes'  },
     {value:  'wss', name: 'While She Sleeps'  },
     {value:  'wildhearts', name: 'The Wildhearts'  },
     {value:  'zebrahead', name: 'Zebrahead'  },
 ]
 
 export const fourthTierBands: object = [
-    {value:  'aild', name: 'As I Lay Dying'  },
+    {value:  'allthatremains', name: 'All That Remains'  },
     {value:  'anaalnathrakh', name: 'Anaal Nathrakh'  },
     {value:  'andrewwk', name: 'Andrew W.K.'  },
+    {value:  'aild', name: 'As I Lay Dying'  },
     {value:  'tbdm', name: 'The Black Dahlia Murder'  },
     {value:  'carpenterbrut', name: 'Carpenter Brut'  },
     {value:  'codeorange', name: 'Code Orange'  },
@@ -139,6 +147,7 @@ export const fourthTierBands: object = [
     {value:  'dimmuborgir', name: 'Dimmu Borgir'  },
     {value:  'theghostinside', name: 'The Ghost Inside'  },
     {value:  'ghostwriters', name: 'Ghostwriters'  },
+    {value:  'helloween', name: 'Helloween'  },
     {value:  'inme', name: 'InMe'  },
     {value:  'killingjoke', name: 'Killing Joke'  },
     {value:  'milkteeth', name: 'Milk Teeth'  },
@@ -146,12 +155,16 @@ export const fourthTierBands: object = [
     {value:  'monuments', name: 'Monuments'  },
     {value:  'mykur', name: 'Mykur'  },
     {value:  'napalmdeath', name: 'Napalm Death'  },
+    {value:  'neurosis', name: 'Neurosis'  },
     {value:  'oathbreaker', name: 'Oathbreaker'  },
+    {value:  'puddleofmudd', name: 'Puddle of Mudd'  },
     {value:  'russiancircles', name: 'Russian Circles'  },
+    {value:  'scarlxrd', name: 'Scarlxrd'  },
     {value:  'sftp', name: 'Stray From The Path'  },
     {value:  'suicidesilence', name: 'Suicide Silence'  },
     {value:  'testament', name: 'Testament'  },
     {value:  'thyartismurder', name: 'Thy Art is Murder'  },
+    {value:  'trophyeyes', name: 'Trophy Eyes'  },
     {value:  'watain', name: 'Watain'  },
     {value:  'wildhearts', name: 'The Wildhearts'  },
     {value:  'zebrahead', name: 'Zebrahead'  },
