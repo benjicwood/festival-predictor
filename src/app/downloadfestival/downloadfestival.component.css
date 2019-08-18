@@ -185,7 +185,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 10px solid transparent;
 }
 
 .gojira {
@@ -246,6 +246,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border-top: 2px solid transparent;
 }
 
 .adtr {
@@ -253,7 +254,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 
 }
 
@@ -269,6 +270,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .ironmaiden {
@@ -276,7 +278,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 
 }
 
@@ -306,6 +308,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+    border: 2px solid transparent;
 }
 
 .biffyclyro {
@@ -336,6 +339,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 8px solid transparent;
 }
 
 .soad {
@@ -343,7 +347,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 10px solid transparent;
 }
 
 .thecure {
@@ -351,7 +355,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 9px solid transparent;
 }
 
 .a7x {
@@ -367,7 +371,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: px solid transparent;
 }
 
 .alltimelow {
@@ -397,7 +401,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 
 }
 
@@ -413,7 +417,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 10px solid transparent;
 
 }
 
@@ -422,6 +426,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .deftones {
@@ -457,7 +462,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .kse {
@@ -465,7 +470,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 7px solid transparent;
 }
 
 .limpbizkit {
@@ -510,6 +515,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 4px solid transparent;
 }
 
 .paparoach {
@@ -547,7 +553,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .runthejewels {
@@ -555,6 +561,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .sabaton {
@@ -590,7 +597,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 5px solid transparent;
 }
 
 .againstme {
@@ -606,7 +613,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 6px solid transparent;
 }
 
 .disturbed {
@@ -614,6 +621,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 4px solid transparent;
 }
 
 .hollywoodvampires {
@@ -636,7 +644,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 }
 
 .staind {
@@ -644,6 +652,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .stonesour {
@@ -651,6 +660,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 4px solid transparent;
 }
 
 .themarsvolta {
@@ -658,7 +668,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 10px solid transparent;
 }
 
 .weezer {
@@ -712,7 +722,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 9px solid transparent;
 }
 
 .alkalinetrio {
@@ -720,6 +730,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .ava {
@@ -727,6 +738,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid transparent;
 }
 
 .bfs {
@@ -741,6 +753,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
+
 }
 
 .candc {
@@ -762,6 +776,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 4px solid transparent;
 }
 
 .dropkickmurphys {
@@ -791,7 +806,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .menzingers {
@@ -799,7 +814,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .periphery {
@@ -842,7 +857,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 13px solid transparent;
 }
 
 .theprettyreckless {
@@ -864,6 +879,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .zebrahead {
@@ -900,7 +916,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .carpenterbrut {
@@ -915,7 +931,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 8px solid transparent;
 }
 
 .cultofluna {
@@ -923,7 +939,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 10px solid transparent;
 }
 
 .deicide {
@@ -938,6 +954,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .inme {
@@ -945,7 +962,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 8px solid transparent;
 }
 
 .killingjoke {
@@ -953,7 +970,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 9px solid transparent;
 }
 
 .milkteeth {
@@ -961,7 +978,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 7px solid transparent;
 }
 
 .ministry {
@@ -976,7 +993,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 7px solid transparent;
 }
 
 .mykur {
@@ -984,6 +1001,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .napalmdeath {
@@ -998,7 +1016,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 }
 
 .russiancircles {
@@ -1006,7 +1024,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .sftp {
@@ -1057,6 +1075,14 @@ body {
   background-position: center;
 }
 
+.robzombie {
+  background-image: url(../../assets/subs/robzombie.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
 .afi {
   background-image: url(../../assets/subs/afi.png);
   background-size: contain;
@@ -1077,7 +1103,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 8px solid transparent;
 }
 
 .allthatremains {
@@ -1085,7 +1111,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 5px solid transparent;
 }
 
 .puddleofmudd {
@@ -1093,6 +1119,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .neurosis {
@@ -1100,7 +1127,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .helloween {
@@ -1108,6 +1135,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .trophyeyes {
@@ -1115,7 +1143,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 7px solid transparent;
 }
 
 .tssf {
@@ -1131,5 +1159,73 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 6px solid transparent;
+}
+
+.riseagainst {
+  background-image: url(../../assets/subs/riseagainst.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border: 4px solid transparent;
+}
+
+.avril {
+  background-image: url(../../assets/midsize/avril.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid transparent;
+}
+
+.nfg {
+  background-image: url(../../assets/midsize/nfg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.nofx {
+  background-image: url(../../assets/midsize/nofx.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.opeth {
+  background-image: url(../../assets/midsize/opeth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scarlxrd {
+  background-image: url(../../assets/midsize/scarlxrd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.evilscarecrow {
+  background-image: url(../../assets/smallsize/evilscarecrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.satyricon {
+  background-image: url(../../assets/smallsize/satyricon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paradiselost {
+  background-image: url(../../assets/smallsize/paradiselost.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
