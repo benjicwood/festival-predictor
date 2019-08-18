@@ -1229,3 +1229,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.kreator {
+  background-image: url(../../assets/smallsize/kreator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid transparent;
+}
+
+.meshuggah {
+  background-image: url(../../assets/midsize/meshuggah.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
