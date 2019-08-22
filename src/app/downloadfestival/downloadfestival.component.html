@@ -95,6 +95,7 @@
     </div>
 
     <div class="grid-container2">
+	    <div class="grid-item-title">Main Stage</div>
 			<div class="grid-item" type="text" name="">
 				<select [(ngModel)]="fridayHeadliner" style="float:right; color:white" (change)="setFridayHeadliner()">
             <option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
@@ -140,6 +141,8 @@
               <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
+	 <div class="grid-item-title">Zippo Encore Stage</div>
+
       <div class="grid-item" type="text" name="">
           <select [(ngModel)]="fridaySecondStageHeadliner" style="float:right; color:white" (change)="setFridaySecondStageHeadliner()">
               <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
@@ -150,6 +153,7 @@
               <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
+
       <div class="grid-item" type="text" name="">
           <select [(ngModel)]="sundaySecondStageHeadliner" style="float:right; color:white" (change)="setSundaySecondStageHeadliner()">
               <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
@@ -170,6 +174,7 @@
               <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
+	 <div class="grid-item-title">Avalanche Stage</div>
       <div class="grid-item" type="text" name="">
           <select [(ngModel)]="fridayThirdStageHeadliner" style="float:right; color:white" (change)="setFridayThirdStageHeadliner()">
               <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
@@ -185,6 +190,7 @@
               <option *ngFor="let band of midsized" [value]="band.value">{{band.name}}</option>
 			  </select>
       </div>
+	 <div class="grid-item-title">Dogtooth Stage</div>
       <div class="grid-item" type="text" name="">
           <select [(ngModel)]="fridayFourthStageHeadliner" style="float:right; color:white" (change)="setFridayFourthStageHeadliner()">
               <option *ngFor="let band of smallsized" [value]="band.value">{{band.name}}</option>
