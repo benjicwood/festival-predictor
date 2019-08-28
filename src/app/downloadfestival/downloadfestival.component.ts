@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 
-import { headlinersList, subsList, thirdTierBands, fourthTierBands } from  './data/bands';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
+
+import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './data/bands';
 
 @Component({
   selector: 'app-downloadfestival',
@@ -36,7 +39,7 @@ export class DownloadfestivalComponent {
   public sundaySub2: string
 
   public sundaySecondStageHeadliner: string
-  public sundaySecondStageSub:string;
+  public sundaySecondStageSub: string;
 
   public sundayThirdStageHeadliner: string
 
@@ -155,6 +158,35 @@ export class DownloadfestivalComponent {
   public setSundayFourthStageHeadliner(): any {
     const v = document.getElementById("sunday-fourth-stage-headliner");
     v.classList.length === 1 ? v.classList.add(this.sundayFourthStageHeadliner) : v.classList.replace(v.classList[1], this.sundayFourthStageHeadliner);
+  }
+
+  public hello(): any {
+    console.log('hi')
+  }
+  /*
+    public print(): any {
+      const filename = 'ThisIsYourPDFFilename.pdf';
+
+      html2canvas(document.querySelector('#testz')).then(canvas => {
+        let pdf = new jsPDF('p', 'mm', 'a4');
+        pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 403, 298); // 1200 × 1600
+        pdf.save(filename);
+      });
+    }
+  */
+  // Variant
+  // This one lets you improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF.
+  public printQ(quality = 2): any {
+    const filename = 'dl2020lineup.pdf';
+
+    html2canvas(document.querySelector('#printposter'),
+      { scale: quality }
+    ).then(canvas => {
+      const pdf = new jsPDF('p', 'px'); // px or in (inch?) 'a4';
+      pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 875, 635); // 1200 × 1600;
+      // pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
+      pdf.save(filename);
+    });
   }
 
 }

@@ -21,6 +21,15 @@ body {
     padding: 0;
 }
 
+.button {
+  background-color: #b5131a;
+  color: white;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 @font-face {
     src: url('../../assets/fonts/MuseoSans_700.otf');
     font-family: 'museo';
