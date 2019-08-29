@@ -184,6 +184,6 @@ export const fourthTierBands: object = [
   { value: 'watain', name: 'Watain' },
   { value: 'wildhearts', name: 'The Wildhearts' },
   { value: 'zebrahead', name: 'Zebrahead' },
-];
+]
 
 //    {value:  '', name: ''  },
