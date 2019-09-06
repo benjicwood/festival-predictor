@@ -1,3 +1,4 @@
+@media only screen and (min-width: 769px) {
 
 body {
     /* Set rules to fill background */
@@ -1284,4 +1285,145 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 6px solid transparent;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+	body {
+    		background-color: lightblue;
+  	}
+
+  	.poster {
+     	/* background-image: url(../../assets/img/downloadfestival.png); */
+      	background-size: contain;
+      	background-repeat: no-repeat;
+      	background-position: left;
+      	background-color: black;
+      	width: 100%;
+      	padding: 0;
+      	display: flex;
+  	}
+
+	.background {
+	    background-color: black;
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.button {
+		display:block;
+		background-color: #b5131a;
+	     color: white;
+	     width: 20px;
+	     text-align: center;
+	     text-decoration: none;
+	     font-size: 11px;
+	}
+
+	@font-face {
+	    src: url('../../assets/fonts/MuseoSans_700.otf');
+	    font-family: 'museo';
+	}
+
+	.grid-container {
+		display: block;
+		grid-template-columns: auto auto auto;
+		padding: 40px 0 0 12px;
+		/* height: 500px; */
+		width: 90%;
+
+	  }
+
+
+	  .grid-container2 {
+		  display: grid;
+	       grid-template-columns: auto auto auto;
+	       padding: 40px 0 0 12px;
+	       /* height: 500px; */
+	       width: 90%;
+		  position:fixed;
+    top:0;
+    z-index:100;
+	    }
+
+	    .grid-container3 {
+
+	    }
+
+	  .grid-item-headliner {
+
+	  }
+
+	  .grid-item-sub {
+
+	  }
+
+	  .grid-item-second-stage-headliner {
+
+	  }
+
+	  .grid-item-second-stage-sub {
+
+	  }
+
+	  .grid-item {
+	 /* background-color: rgba(255, 255, 255, 0.8); */
+	    border: white;
+	    border-radius: 1px;
+	    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+	    padding: 5px;
+	    color: white;
+	    font-family: 'PT Sans Narrow', sans-serif;
+	    font-weight: 700;
+	    font-size: 15px;
+	    text-align: center;
+	    width: 50px;
+
+	  }
+
+	  .grid-item-title {
+		  /* background-color: rgba(255, 255, 255, 0.8); */
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+
+	  }
+
+	  .grid-item-midsize {
+		  /* background-color: rgba(255, 255, 255, 0.8); */
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+
+	     }
+
+	  .grid-item-third-stage {
+		  /* background-color: rgba(255, 255, 255, 0.8); */
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+	     }
+
+
+
 }

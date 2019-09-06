@@ -183,6 +183,9 @@ export class DownloadfestivalComponent {
       { scale: quality }
     ).then(canvas => {
       const pdf = new jsPDF('p', 'px'); // px or in (inch?) 'a4';
+      // let width = pdf.internal.pageSize.getWidth();
+      // let divWidth = document.getElementById('grid-container').offsetWidth;
+      // console.log(divWidth)
       pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 875, 635); // 1200 × 1600;
       // pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
       pdf.save(filename);
