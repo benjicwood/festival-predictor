@@ -176,17 +176,25 @@ export class DownloadfestivalComponent {
   */
   // Variant
   // This one lets you improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF.
-  public printQ(quality = 2): any {
+  public printQ(quality = 3): any {
     const filename = 'dl2020lineup.pdf';
-
+//210mm x 297mm
     html2canvas(document.querySelector('#printposter'),
       { scale: quality }
     ).then(canvas => {
-      const pdf = new jsPDF('p', 'px'); // px or in (inch?) 'a4';
+      const pdf = new jsPDF({
+        orientation: 'portrait',
+        unit: 'px',
+        format: [842, 632]
+      })//'p', 'px'); // px or in (inch?) 'a4';
       // let width = pdf.internal.pageSize.getWidth();
-      // let divWidth = document.getElementById('grid-container').offsetWidth;
-      // console.log(divWidth)
-      pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 875, 635); // 1200 × 1600;
+     // debugger;
+      let divWidth = pdf.internal.pageSize.getWidth();
+      let divHeight = pdf.internal.pageSize.getHeight();
+      // debugger;
+      console.log(divWidth)
+      // console.log(divWidth   // document.querySelector('#printposter').offsetWidth
+      pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 0, 632)//875, 635); // 1200 × 1600;
       // pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
       pdf.save(filename);
     });

@@ -1,5 +1,3 @@
-@media only screen and (min-width: 769px) {
-
 body {
     /* Set rules to fill background */
     min-height: 100%;
@@ -13,6 +11,9 @@ body {
     position: fixed;
     margin: 0;
     left: 0;
+
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .background {
@@ -25,7 +26,7 @@ body {
 .button {
   background-color: #b5131a;
   color: white;
-  width: 100px;
+  width: 135px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -50,9 +51,9 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 240px 0 0 12px;
+    padding: 240px 12px 0 12px;
     height: auto;
-    width: 737px;
+    width: 749px;
   }
 
 
@@ -336,7 +337,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-    border: 2px solid transparent;
+    border: 4px solid transparent;
 }
 
 .biffyclyro {
@@ -359,7 +360,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 14px solid transparent;
 }
 
 .gnr {
@@ -383,7 +384,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 9px solid transparent;
+  border: 10px solid transparent;
 }
 
 .a7x {
@@ -399,7 +400,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: px solid transparent;
+  border: 8px solid transparent;
 }
 
 .alltimelow {
@@ -407,6 +408,14 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.shinedown {
+  background-image: url(../../assets/subs/shinedown.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 14px solid transparent;
 }
 
 .babymetal {
@@ -770,7 +779,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .bfs {
@@ -802,6 +811,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .devintownsend {
@@ -936,6 +946,30 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 4px solid transparent;
+}
+
+.soia {
+  background-image: url(../../assets/smallsize/soia.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.suicidaltendencies {
+  background-image: url(../../assets/smallsize/suicidaltendencies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.therapy {
+  background-image: url(../../assets/smallsize/therapy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 9px solid transparent;
 }
 
 .anaalnathrakh {
@@ -1229,6 +1263,28 @@ body {
   border: 4px solid transparent;
 }
 
+.behemoth {
+  background-image: url(../../assets/midsize/behemoth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.down {
+  background-image: url(../../assets/midsize/down.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sws {
+  background-image: url(../../assets/midsize/sws.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .opeth {
   background-image: url(../../assets/midsize/opeth.png);
   background-size: contain;
@@ -1294,8 +1350,9 @@ body {
   background-position: center;
   border: 6px solid transparent;
 }
-}
 
+
+/*
 
 @media only screen and (max-width: 768px) {
 	body {
@@ -1303,7 +1360,6 @@ body {
   	}
 
   	.poster {
-     	/* background-image: url(../../assets/img/downloadfestival.png); */
       	background-size: contain;
       	background-repeat: no-repeat;
       	background-position: left;
@@ -1339,7 +1395,6 @@ body {
 		display: block;
 		grid-template-columns: auto auto auto;
 		padding: 40px 0 0 12px;
-		/* height: 500px; */
 		width: 90%;
 
 	  }
@@ -1349,7 +1404,6 @@ body {
 		  display: grid;
 	       grid-template-columns: auto auto auto;
 	       padding: 40px 0 0 12px;
-	       /* height: 500px; */
 	       width: 90%;
 		  position:fixed;
     top:0;
@@ -1377,7 +1431,6 @@ body {
 	  }
 
 	  .grid-item {
-	 /* background-color: rgba(255, 255, 255, 0.8); */
 	    border: white;
 	    border-radius: 1px;
 	    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
@@ -1392,7 +1445,6 @@ body {
 	  }
 
 	  .grid-item-title {
-		  /* background-color: rgba(255, 255, 255, 0.8); */
 		     border: white;
 		     border-radius: 1px;
 		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
@@ -1406,7 +1458,6 @@ body {
 	  }
 
 	  .grid-item-midsize {
-		  /* background-color: rgba(255, 255, 255, 0.8); */
 		     border: white;
 		     border-radius: 1px;
 		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
@@ -1420,7 +1471,6 @@ body {
 	     }
 
 	  .grid-item-third-stage {
-		  /* background-color: rgba(255, 255, 255, 0.8); */
 		     border: white;
 		     border-radius: 1px;
 		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
@@ -1431,7 +1481,5 @@ body {
 		     font-size: 15px;
 		     text-align: center;
 	     }
-
-
-
-}
+      } 
+*/
