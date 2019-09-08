@@ -1,4 +1,3 @@
-
 body {
     /* Set rules to fill background */
     min-height: 100%;
@@ -12,6 +11,9 @@ body {
     position: fixed;
     margin: 0;
     left: 0;
+
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .background {
@@ -24,7 +26,7 @@ body {
 .button {
   background-color: #b5131a;
   color: white;
-  width: 100px;
+  width: 135px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -49,9 +51,9 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 240px 0 0 12px;
+    padding: 240px 12px 0 12px;
     height: auto;
-    width: 737px;
+    width: 749px;
   }
 
 
@@ -210,7 +212,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 5px solid transparent;
 }
 
 .gojira {
@@ -249,6 +251,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid transparent;
 }
 
 .aliceinchains {
@@ -288,6 +291,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 12px solid transparent;
 }
 
 .pearljam {
@@ -303,7 +307,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 12px solid transparent;
 
 }
 
@@ -333,7 +337,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-    border: 2px solid transparent;
+    border: 4px solid transparent;
 }
 
 .biffyclyro {
@@ -356,7 +360,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 14px solid transparent;
 }
 
 .gnr {
@@ -372,7 +376,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 18px solid transparent;
 }
 
 .thecure {
@@ -380,7 +384,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 9px solid transparent;
+  border: 10px solid transparent;
 }
 
 .a7x {
@@ -396,7 +400,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: px solid transparent;
+  border: 8px solid transparent;
 }
 
 .alltimelow {
@@ -404,6 +408,14 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.shinedown {
+  background-image: url(../../assets/subs/shinedown.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 14px solid transparent;
 }
 
 .babymetal {
@@ -442,7 +454,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 9px solid transparent;
 
 }
 
@@ -473,6 +485,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .fcandtherattlesnakes {
@@ -480,6 +493,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .idles {
@@ -495,7 +509,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 7px solid transparent;
+  border: 11px solid transparent;
 }
 
 .limpbizkit {
@@ -518,7 +532,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 
 .mercyfulfate {
@@ -647,7 +661,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 5px solid transparent;
 }
 
 .hollywoodvampires {
@@ -686,7 +700,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 5px solid transparent;
 }
 
 .themarsvolta {
@@ -694,7 +708,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 11px solid transparent;
 }
 
 .weezer {
@@ -709,7 +723,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 4px solid transparent;
 }
 
 .ffdp {
@@ -741,6 +755,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .neckdeep {
@@ -756,7 +771,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 4px solid transparent;
 }
 
 .ava {
@@ -764,7 +779,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .bfs {
@@ -788,6 +803,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid transparent;
 }
 
 .creeper {
@@ -795,6 +811,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 3px solid transparent;
 }
 
 .devintownsend {
@@ -802,7 +819,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 7px solid transparent;
 }
 
 .dropkickmurphys {
@@ -883,7 +900,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 13px solid transparent;
+  border: 14px solid transparent;
 }
 
 .theprettyreckless {
@@ -898,6 +915,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .wss {
@@ -930,6 +948,30 @@ body {
   border: 4px solid transparent;
 }
 
+.soia {
+  background-image: url(../../assets/smallsize/soia.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.suicidaltendencies {
+  background-image: url(../../assets/smallsize/suicidaltendencies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.therapy {
+  background-image: url(../../assets/smallsize/therapy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 9px solid transparent;
+}
+
 .anaalnathrakh {
   background-image: url(../../assets/smallsize/anaalnathrakh.png);
   background-size: contain;
@@ -942,7 +984,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 7px solid transparent;
 }
 
 .carpenterbrut {
@@ -957,7 +999,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 10px solid transparent;
 }
 
 .cultofluna {
@@ -965,7 +1007,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 11px solid transparent;
 }
 
 .deicide {
@@ -980,7 +1022,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 4px solid transparent;
 }
 
 .inme {
@@ -996,7 +1038,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 9px solid transparent;
+  border: 10px solid transparent;
 }
 
 .milkteeth {
@@ -1042,7 +1084,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 9px solid transparent;
 }
 
 .russiancircles {
@@ -1114,6 +1156,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .megadeth {
@@ -1121,7 +1164,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
 }
 
 .alestorm {
@@ -1129,7 +1172,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 9px solid transparent;
 }
 
 .allthatremains {
@@ -1137,7 +1180,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 5px solid transparent;
+  border: 7px solid transparent;
 }
 
 .puddleofmudd {
@@ -1153,7 +1196,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 }
 
 .helloween {
@@ -1220,6 +1263,28 @@ body {
   border: 4px solid transparent;
 }
 
+.behemoth {
+  background-image: url(../../assets/midsize/behemoth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.down {
+  background-image: url(../../assets/midsize/down.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sws {
+  background-image: url(../../assets/midsize/sws.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .opeth {
   background-image: url(../../assets/midsize/opeth.png);
   background-size: contain;
@@ -1261,7 +1326,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
+  border: 5px solid transparent;
 }
 
 .none {
@@ -1285,3 +1350,136 @@ body {
   background-position: center;
   border: 6px solid transparent;
 }
+
+
+/*
+
+@media only screen and (max-width: 768px) {
+	body {
+    		background-color: lightblue;
+  	}
+
+  	.poster {
+      	background-size: contain;
+      	background-repeat: no-repeat;
+      	background-position: left;
+      	background-color: black;
+      	width: 100%;
+      	padding: 0;
+      	display: flex;
+  	}
+
+	.background {
+	    background-color: black;
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.button {
+		display:block;
+		background-color: #b5131a;
+	     color: white;
+	     width: 20px;
+	     text-align: center;
+	     text-decoration: none;
+	     font-size: 11px;
+	}
+
+	@font-face {
+	    src: url('../../assets/fonts/MuseoSans_700.otf');
+	    font-family: 'museo';
+	}
+
+	.grid-container {
+		display: block;
+		grid-template-columns: auto auto auto;
+		padding: 40px 0 0 12px;
+		width: 90%;
+
+	  }
+
+
+	  .grid-container2 {
+		  display: grid;
+	       grid-template-columns: auto auto auto;
+	       padding: 40px 0 0 12px;
+	       width: 90%;
+		  position:fixed;
+    top:0;
+    z-index:100;
+	    }
+
+	    .grid-container3 {
+
+	    }
+
+	  .grid-item-headliner {
+
+	  }
+
+	  .grid-item-sub {
+
+	  }
+
+	  .grid-item-second-stage-headliner {
+
+	  }
+
+	  .grid-item-second-stage-sub {
+
+	  }
+
+	  .grid-item {
+	    border: white;
+	    border-radius: 1px;
+	    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+	    padding: 5px;
+	    color: white;
+	    font-family: 'PT Sans Narrow', sans-serif;
+	    font-weight: 700;
+	    font-size: 15px;
+	    text-align: center;
+	    width: 50px;
+
+	  }
+
+	  .grid-item-title {
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+
+	  }
+
+	  .grid-item-midsize {
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+
+	     }
+
+	  .grid-item-third-stage {
+		     border: white;
+		     border-radius: 1px;
+		     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+		     padding: 5px;
+		     color: white;
+		     font-family: 'PT Sans Narrow', sans-serif;
+		     font-weight: 700;
+		     font-size: 15px;
+		     text-align: center;
+	     }
+      } 
+*/
