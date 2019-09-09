@@ -221,7 +221,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 3px solid transparent;
+}
 
+.fnm {
+  background-image: url(../../assets/subs/fnm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 8px solid transparent;
 }
 
 .korn {
@@ -749,6 +756,13 @@ body {
   border: 4px solid transparent;
 }
 
+.blacklabelsociety {
+  background-image: url(../../assets/midsize/blacklabelsociety.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .marilynmanson {
   background-image: url(../../assets/subs/marilynmanson.png);
@@ -946,6 +960,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 4px solid transparent;
+}
+
+.mrbungle {
+  background-image: url(../../assets/smallsize/mrbungle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
 }
 
 .soia {
