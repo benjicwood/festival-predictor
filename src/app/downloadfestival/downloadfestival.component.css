@@ -383,7 +383,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 18px solid transparent;
 }
 
 .thecure {
@@ -524,7 +523,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 
 .machinehead {
@@ -1014,6 +1013,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 5px solid transparent;
 }
 
 .codeorange {
