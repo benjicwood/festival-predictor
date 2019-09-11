@@ -445,7 +445,30 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 8px solid transparent;
+}
 
+.zztop {
+  background-image: url(../../assets/subs/zztop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid transparent;
+}
+
+.steelpanther {
+  background-image: url(../../assets/subs/steelpanther.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.por {
+  background-image: url(../../assets/subs/por.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
 }
 
 .bsc {
@@ -739,6 +762,13 @@ body {
   background-position: center;
 }
 
+.log {
+  background-image: url(../../assets/subs/log.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .entershikari {
   background-image: url(../../assets/subs/entershikari.png);
   background-size: contain;
@@ -762,6 +792,88 @@ body {
   background-position: center;
 }
 
+.alexisonfire {
+  background-image: url(../../assets/midsize/alexisonfire.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.etid {
+  background-image: url(../../assets/midsize/etid.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.ghostemane {
+  background-image: url(../../assets/midsize/ghostemane.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skindred {
+  background-image: url(../../assets/midsize/skindred.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.thedarkness {
+  background-image: url(../../assets/midsize/thedarkness.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pil {
+  background-image: url(../../assets/midsize/pil.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sikth {
+  background-image: url(../../assets/smallsize/sikth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.annihilator {
+  background-image: url(../../assets/smallsize/annihilator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
+
+.ragingspeedhorn {
+  background-image: url(../../assets/smallsize/ragingspeedhorn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dyingfetus {
+  background-image: url(../../assets/smallsize/dyingfetus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.theblackqueen {
+  background-image: url(../../assets/smallsize/theblackqueen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
+}
 
 .marilynmanson {
   background-image: url(../../assets/subs/marilynmanson.png);
@@ -777,6 +889,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 9px solid transparent;
+}
+
+.frankturner {
+  background-image: url(../../assets/midsize/frankturner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid transparent;
 }
 
 .alkalinetrio {
