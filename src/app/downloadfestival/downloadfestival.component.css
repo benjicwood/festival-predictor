@@ -132,7 +132,7 @@ body {
     border-radius: 1px;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
     padding: 5px;
-    color: white;
+    color: whitesmoke;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -212,7 +212,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 5px solid transparent;
+  border: 2px solid transparent;
 }
 
 .gojira {
@@ -258,7 +258,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid transparent;
+  border: 3px solid transparent;
 }
 
 .aliceinchains {
@@ -281,7 +281,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 2px solid transparent;
+  border-top: 8px solid transparent;
 }
 
 .adtr {
@@ -298,7 +298,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 12px solid transparent;
 }
 
 .pearljam {
@@ -390,7 +389,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 10px solid transparent;
+  border: 2px solid transparent;
 }
 
 .a7x {
@@ -414,6 +413,14 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.pixies {
+  background-image: url(../../assets/subs/pixies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid transparent;
 }
 
 .shinedown {
@@ -690,7 +697,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 5px solid transparent;
+  border: 4px solid transparent;
 }
 
 .hollywoodvampires {
@@ -952,7 +959,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 7px solid transparent;
 }
 
 .dropkickmurphys {
@@ -1071,6 +1077,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
+
 }
 
 .aild {
@@ -1271,11 +1279,36 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .bfmv {
   background-image: url(../../assets/subs/bfmv.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.clutch {
+  background-image: url(../../assets/subs/clutch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.amonamarth {
+  background-image: url(../../assets/subs/amonamarth.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid transparent;
+}
+
+.fob {
+  background-image: url(../../assets/subs/fob.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
 }
 
 .trivium {
@@ -1317,6 +1350,13 @@ body {
   border: 9px solid transparent;
 }
 
+.hatebreed {
+  background-image: url(../../assets/midsize/hatebreed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .allthatremains {
   background-image: url(../../assets/midsize/allthatremains.png);
   background-size: contain;
@@ -1331,6 +1371,35 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid transparent;
+}
+
+.anthrax {
+  background-image: url(../../assets/smallsize/anthrax.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.municipalwaste {
+  background-image: url(../../assets/smallsize/municipalwaste.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alienweaponry {
+  background-image: url(../../assets/smallsize/alienweaponry.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid transparent;
+}
+
+.necrophagist {
+  background-image: url(../../assets/smallsize/necrophagist.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .neurosis {
@@ -1490,7 +1559,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 2px solid transparent;
 }
 
 
