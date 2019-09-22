@@ -196,7 +196,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
 }
 
 .acdc {
@@ -204,7 +203,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
 }
 
 .nineinchnails {
@@ -305,7 +303,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
 }
 
 .ironmaiden {
@@ -313,8 +310,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 12px solid transparent;
-
 }
 
 .slipknot {
@@ -366,7 +361,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 14px solid transparent;
+  border: 4px solid transparent;
 }
 
 .gnr {
@@ -443,7 +438,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 12px solid transparent;
 }
 
 .billytalent {
@@ -451,7 +445,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 8px solid transparent;
+  border: 10px solid transparent;
 }
 
 .zztop {
@@ -545,7 +539,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 11px solid transparent;
+  border: 1px solid transparent;
 }
 
 .limpbizkit {
@@ -553,7 +547,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
+  border: 5px solid transparent;
 }
 
 .machinehead {
@@ -628,7 +622,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 6px solid transparent;
+  border: 8px solid transparent;
 }
 
 .runthejewels {
@@ -666,6 +660,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid transparent;
 }
 
 .withintemptation {
@@ -697,7 +692,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 4px solid transparent;
 }
 
 .hollywoodvampires {
@@ -1039,7 +1033,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 14px solid transparent;
 }
 
 .theprettyreckless {
