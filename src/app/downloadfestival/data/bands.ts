@@ -97,6 +97,7 @@ export const subsList: object = [
   { value: 'volbeat', name: 'Volbeat' },
   { value: 'weezer', name: 'Weezer' },
   { value: 'withintemptation', name: 'Within Temptation' },
+  { value: 'wolfalice', name: 'Wolf Alice' },
   { value: 'zztop', name: 'ZZ Top' },
 ]
 
