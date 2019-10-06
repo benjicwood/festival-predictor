@@ -262,7 +262,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid transparent;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 
 .aliceinchains {
@@ -670,7 +671,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .sum41 {
@@ -1196,7 +1198,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 5px solid transparent;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
 }
 
 .codeorange {
@@ -1406,8 +1409,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid transparent;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
 }
 
 .alestorm {
@@ -1656,8 +1659,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 
 .kgatlw {
