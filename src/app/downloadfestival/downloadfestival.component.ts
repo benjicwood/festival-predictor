@@ -176,7 +176,7 @@ export class DownloadfestivalComponent {
   */
   // Variant
   // This one lets you improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF.
-  public printQ(quality = 3): any {
+  public printQ(quality = 4): any {
     const filename = 'dl2020lineup.pdf';
 //210mm x 297mm
     html2canvas(document.querySelector('#printposter'),
