@@ -408,6 +408,20 @@ body {
   border-bottom: 2px solid transparent;
 }
 
+.mcr {
+  background-image: url(../../assets/headliners/mcr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ratm {
+  background-image: url(../../assets/headliners/ratm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .defleppard {
   background-image: url(../../assets/headliners/defleppard.png);
   background-size: contain;
@@ -449,6 +463,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 
 .billieeilish {
@@ -695,7 +711,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .withintemptation {
