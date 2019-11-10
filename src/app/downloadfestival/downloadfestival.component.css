@@ -554,7 +554,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .fcandtherattlesnakes {
