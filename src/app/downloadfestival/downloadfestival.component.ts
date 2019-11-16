@@ -8,7 +8,7 @@ import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './dat
 @Component({
   selector: 'app-downloadfestival',
   templateUrl: './downloadfestival.component.html',
-  styleUrls: ['./downloadfestival.component.css']
+  styleUrls: ['./downloadfestival.component.scss']
 })
 
 export class DownloadfestivalComponent {
