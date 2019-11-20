@@ -18,6 +18,8 @@ export class DownloadfestivalComponent {
   public midsized = thirdTierBands
   public smallsized = fourthTierBands
 
+  fridayHeadliner; saturdayHeadliner; sundayHeadliner; fridaySub1; saturdaySub1; sundaySub1; fridaySub2; saturdaySub2; sundaySub2; fridaySecondStageHeadliner; saturdaySecondStageHeadliner; sundaySecondStageHeadliner; fridaySecondStageSub; saturdaySecondStageSub; sundaySecondStageSub; fridayThirdStageHeadliner; saturdayThirdStageHeadliner; sundayThirdStageHeadliner; fridayFourthStageHeadliner; saturdayFourthStageHeadliner; sundayFourthStageHeadliner;
+
   public setLogo(position: string, bandname: any): any {
     const getMatchingElement = document.getElementById(position)
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
