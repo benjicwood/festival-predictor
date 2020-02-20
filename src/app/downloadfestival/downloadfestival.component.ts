@@ -22,6 +22,7 @@ export class DownloadfestivalComponent {
 
   public setLogo(position: string, bandname: any): any {
     const getMatchingElement = document.getElementById(position)
+    debugger;
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
     event.target["selectedIndex"] = 0
   }
@@ -29,7 +30,7 @@ export class DownloadfestivalComponent {
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
   public printQ(quality = 3): any { // quality between 0 and 4
     const filename = 'dl2020lineup.pdf'
-  
+
     html2canvas(document.querySelector('#printposter'),
       { scale: quality }
     ).then(canvas => {
