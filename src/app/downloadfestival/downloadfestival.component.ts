@@ -3,7 +3,7 @@ import { Component } from '@angular/core'
 import html2canvas from 'html2canvas'
 import jsPDF from 'jspdf'
 
-import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './data/bands'
+import { headlinersList, subsList, subsListExtended, subsListSecondStage, thirdStageList, fourthStageList } from './data/bands'
 
 @Component({
   selector: 'app-downloadfestival',
@@ -14,9 +14,11 @@ import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './dat
 export class DownloadfestivalComponent {
 
   public headliners = headlinersList
-  public subs = subsList
-  public midsized = thirdTierBands
-  public smallsized = fourthTierBands
+  public subs = subsList;
+  public subsExtended = subsListExtended
+  public subsListSecondStage = subsListSecondStage
+  public thirdStage = thirdStageList
+  public fourthStage = fourthStageList
 
   public fridayHeadliner: string
   public saturdayHeadliner: string
