@@ -3,7 +3,7 @@ import { Component } from '@angular/core'
 import html2canvas from 'html2canvas'
 import jsPDF from 'jspdf'
 
-import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './data/bands'
+import { headlinersList, subsList, subsListExtended, subsListSecondStage, thirdStageList, fourthStageList } from './data/bands'
 
 @Component({
   selector: 'app-downloadfestival',
@@ -14,22 +14,44 @@ import { headlinersList, subsList, thirdTierBands, fourthTierBands } from './dat
 export class DownloadfestivalComponent {
 
   public headliners = headlinersList
-  public subs = subsList
-  public midsized = thirdTierBands
-  public smallsized = fourthTierBands
+  public subs = subsList;
+  public subsExtended = subsListExtended
+  public subsListSecondStage = subsListSecondStage
+  public thirdStage = thirdStageList
+  public fourthStage = fourthStageList
 
-  fridayHeadliner; saturdayHeadliner; sundayHeadliner; fridaySub1; saturdaySub1; sundaySub1; fridaySub2; saturdaySub2; sundaySub2; fridaySecondStageHeadliner; saturdaySecondStageHeadliner; sundaySecondStageHeadliner; fridaySecondStageSub; saturdaySecondStageSub; sundaySecondStageSub; fridayThirdStageHeadliner; saturdayThirdStageHeadliner; sundayThirdStageHeadliner; fridayFourthStageHeadliner; saturdayFourthStageHeadliner; sundayFourthStageHeadliner;
+  public fridayHeadliner: string
+  public saturdayHeadliner: string
+  public sundayHeadliner: string
+  public fridaySub1: string
+  public saturdaySub1: string
+  public sundaySub1: string
+  public fridaySub2: string
+  public saturdaySub2: string
+  public sundaySub2: string
+  public fridaySecondStageHeadliner: string
+  public saturdaySecondStageHeadliner: string
+  public sundaySecondStageHeadliner: string
+  public fridaySecondStageSub: string
+  public saturdaySecondStageSub: string
+  public sundaySecondStageSub: string
+  public fridayThirdStageHeadliner: string
+  public saturdayThirdStageHeadliner: string
+  public sundayThirdStageHeadliner: string
+  public fridayFourthStageHeadliner: string
+  public saturdayFourthStageHeadliner: string
+  public sundayFourthStageHeadliner: string
 
-  public setLogo(position: string, bandname: any): any {
+  public setLogo(position: string, bandname: string): any {
     const getMatchingElement = document.getElementById(position)
+
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
-    event.target["selectedIndex"] = 0
   }
 
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
   public printQ(quality = 3): any { // quality between 0 and 4
     const filename = 'dl2020lineup.pdf'
-  
+
     html2canvas(document.querySelector('#printposter'),
       { scale: quality }
     ).then(canvas => {

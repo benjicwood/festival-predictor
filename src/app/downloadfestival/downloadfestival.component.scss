@@ -18,7 +18,7 @@ body {
 }
 
 .poster {
-  background-image: url(../../assets/img/downloadfestival.png);
+  background-image: url(../../assets/img/downloadfestival2021.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -110,20 +110,29 @@ body {
   height: 20px;
 }
 
+.bands-dropdown {
+  float:right;
+  color: white;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+
 .none { background-image: none; }
 
 /* headliners */
 
 .acdc { background-image: url(../../assets/headliners/acdc.png); }
 .adtr { background-image: url(../../assets/headliners/adtr.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
-.aerosmith { background-image: url(../../assets/headliners/aerosmith.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+.aerosmith { background-image: url(../../assets/headliners/aerosmith.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .alterbridge { background-image: url(../../assets/headliners/alterbridge.png); }
-.a7x { background-image: url(../../assets/headliners/a7x.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.a7x { background-image: url(../../assets/headliners/a7x.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .biffyclyro { background-image: url(../../assets/headliners/biffyclyro.png); }
 .blink182 { background-image: url(../../assets/headliners/blink182.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
 .bmth { background-image: url(../../assets/headliners/bmth.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .thecure { background-image: url(../../assets/headliners/thecure.png); border-top: 12px solid transparent; border-bottom: 12px solid transparent; }
-.defleppard { background-image: url(../../assets/headliners/defleppard.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.defleppard { background-image: url(../../assets/headliners/defleppard.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .foofighters { background-image: url(../../assets/headliners/foofighters.png); }
 .ghost { background-image: url(../../assets/headliners/ghost.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .greenday { background-image: url(../../assets/headliners/greenday.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
@@ -131,8 +140,10 @@ body {
 .ironmaiden { background-image: url(../../assets/headliners/ironmaiden.png); }
 .kiss { background-image: url(../../assets/headliners/kiss.png); }
 .metallica { background-image: url(../../assets/headliners/metallica.png); }
+.muse { background-image: url(../../assets/headliners/muse.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .mcr { background-image: url(../../assets/headliners/mcr.png); }
 .nineinchnails { background-image: url(../../assets/headliners/nineinchnails.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.paramore { background-image: url(../../assets/headliners/paramore.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .pearljam { background-image: url(../../assets/headliners/pearljam.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .qotsa { background-image: url(../../assets/headliners/qotsa.png); }
 .ratm { background-image: url(../../assets/headliners/ratm.png); }
@@ -148,14 +159,16 @@ body {
 .alicecooper { background-image: url(../../assets/subs/alicecooper.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
 .aliceinchains { background-image: url(../../assets/subs/aliceinchains.png); }
 .alltimelow { background-image: url(../../assets/subs/alltimelow.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
-.amonamarth { background-image: url(../../assets/subs/amonamarth.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.architects { background-image: url(../../assets/subs/architects.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.amonamarth-big { background-image: url(../../assets/subs/amonamarth.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.amonamarth-small { background-image: url(../../assets/subs/amonamarth.png); }
+.architects { background-image: url(../../assets/subs/architects.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .babymetal { background-image: url(../../assets/subs/babymetal.png); border-top: 3px solid transparent; border-bottom: 1px solid transparent; }
-.billieeilish { background-image: url(../../assets/subs/billieeilish.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.billieeilish { background-image: url(../../assets/subs/billieeilish.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .billytalent { background-image: url(../../assets/subs/billytalent.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
 .bsc { background-image: url(../../assets/subs/bsc.png); }
-.bfmv { background-image: url(../../assets/subs/bfmv.png); }
-.clutch { background-image: url(../../assets/subs/clutch.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.bfmv { background-image: url(../../assets/subs/bfmv.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.clutch-big { background-image: url(../../assets/subs/clutch.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.clutch-small { background-image: url(../../assets/subs/clutch.png); }
 .converge { background-image: url(../../assets/subs/converge.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .deftones { background-image: url(../../assets/subs/deftones.png); border-top: 14px solid transparent; border-bottom: 14px solid transparent; }
 .disturbed { background-image: url(../../assets/subs/disturbed.png); }
@@ -169,37 +182,46 @@ body {
 .gojira { background-image: url(../../assets/subs/gojira.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .halestorm { background-image: url(../../assets/subs/halestorm.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .hollywoodvampires { background-image: url(../../assets/subs/hollywoodvampires.png); background-size: contain; }
-.idles { background-image: url(../../assets/subs/idles.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
+.idles-big { background-image: url(../../assets/subs/idles.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
+.idles-small { background-image: url(../../assets/subs/idles.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.jackwhite { background-image: url(../../assets/subs/jackwhite.png); }
+.janesaddiction { background-image: url(../../assets/subs/janesaddiction.png); }
 .judaspriest { background-image: url(../../assets/subs/judaspriest.png); }
-.kse { background-image: url(../../assets/subs/kse.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.kse { background-image: url(../../assets/subs/kse.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .korn { background-image: url(../../assets/subs/korn.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
 .limpbizkit { background-image: url(../../assets/subs/limpbizkit.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .log { background-image: url(../../assets/subs/log.png); }
 .machinehead { background-image: url(../../assets/subs/machinehead.png); }
 .marilynmanson { background-image: url(../../assets/subs/marilynmanson.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.marmozets { background-image: url(../../assets/subs/marmozets.png); border-top: 15px solid transparent; border-bottom: 15px solid transparent; }
+.marmozets-big { background-image: url(../../assets/subs/marmozets.png); border-top: 15px solid transparent; border-bottom: 15px solid transparent; }
+.marmozets-small { background-image: url(../../assets/subs/marmozets.png); border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
 .themarsvoltasub { background-image: url(../../assets/subs/themarsvolta.png); border-top: 12px solid transparent; border-bottom: 12px solid transparent; }
 .mastodon { background-image: url(../../assets/subs/mastodon.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
 .megadeth { background-image: url(../../assets/subs/megadeth.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .mercyfulfate { background-image: url(../../assets/subs/mercyfulfate.png); }
-.misfits { background-image: url(../../assets/subs/misfits.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.misfits { background-image: url(../../assets/subs/misfits.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.motleycrue { background-image: url(../../assets/subs/motleycrue.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .nightwish { background-image: url(../../assets/subs/nightwish.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .theoffspring { background-image: url(../../assets/subs/theoffspring.png); }
-.paparoach { background-image: url(../../assets/subs/paparoach.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
-.parkwaydrive { background-image: url(../../assets/subs/parkwaydrive.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
-.pixies { background-image: url(../../assets/subs/pixies.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
-.placebo { background-image: url(../../assets/subs/placebo.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
-.primus { background-image: url(../../assets/subs/primus.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
-.por { background-image: url(../../assets/subs/por.png); border: 4px solid transparent; }
-.rancid { background-image: url(../../assets/subs/rancid.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.paparoach-big { background-image: url(../../assets/subs/paparoach.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.paparoach-small { background-image: url(../../assets/subs/paparoach.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.parkwaydrive { background-image: url(../../assets/subs/parkwaydrive.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.pixies { background-image: url(../../assets/subs/pixies.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.placebo { background-image: url(../../assets/subs/placebo.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
+.poison { background-image: url(../../assets/subs/poison.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.primus-big { background-image: url(../../assets/subs/primus.png); border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
+.primus-small { background-image: url(../../assets/subs/primus.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.por { background-image: url(../../assets/subs/por.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.rancid-big { background-image: url(../../assets/subs/rancid.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.rancid-small { background-image: url(../../assets/subs/rancid.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .rivalsons { background-image: url(../../assets/subs/rivalsons.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.robzombie { background-image: url(../../assets/subs/robzombie.png); border: 2px solid transparent; }
+.robzombie { background-image: url(../../assets/subs/robzombie.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .royalblood { background-image: url(../../assets/subs/royalblood.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.runthejewels { background-image: url(../../assets/subs/runthejewels.png); border: 2px solid transparent; }
+.runthejewels { background-image: url(../../assets/subs/runthejewels.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .sabaton { background-image: url(../../assets/subs/sabaton.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .shinedown { background-image: url(../../assets/subs/shinedown.png); border-top: 16px solid transparent; border-bottom: 16px solid transparent; }
-.staind { background-image: url(../../assets/subs/staind.png); border: 2px solid transparent; }
-.steelpanther { background-image: url(../../assets/subs/steelpanther.png); border: 3px solid transparent; }
+.staind { background-image: url(../../assets/subs/staind.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.steelpanther { background-image: url(../../assets/subs/steelpanther.png);border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .stonesour { background-image: url(../../assets/subs/stonesour.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
 .sum41 { background-image: url(../../assets/subs/sum41.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .trivium { background-image: url(../../assets/subs/trivium.png); }
@@ -213,37 +235,45 @@ body {
 
 .airbourne { background-image: url(../../assets/midsize/airbourne.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .alkalinetrio { background-image: url(../../assets/midsize/alkalinetrio.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
-.alestorm { background-image: url(../../assets/midsize/alestorm.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
-.alexisonfire { background-image: url(../../assets/midsize/alexisonfire.png); border: 4px solid transparent; }
+.alestorm { background-image: url(../../assets/midsize/alestorm.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.alexisonfire { background-image: url(../../assets/midsize/alexisonfire.png); border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
 .allthatremains { background-image: url(../../assets/midsize/allthatremains.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.archenemy { background-image: url(../../assets/midsize/archenemy.png); border-top: 7px solid transparent; border-bottom: 6px solid transparent; }
 .ava { background-image: url(../../assets/midsize/ava.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .annihilator { background-image: url(../../assets/smallsize/annihilator.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
-.avril { background-image: url(../../assets/midsize/avril.png); border: 1px solid transparent; }
+.augustburnsred { background-image: url(../../assets/midsize/augustburnsred.png); }
+.avril { background-image: url(../../assets/midsize/avril.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+.beartooth { background-image: url(../../assets/midsize/beartooth.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .behemoth { background-image: url(../../assets/midsize/behemoth.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.blackflag { background-image: url(../../assets/midsize/blackflag.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .blacklabelsociety { background-image: url(../../assets/midsize/blacklabelsociety.png); }
 .bvb { background-image: url(../../assets/midsize/bvb.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.bostonmanor { background-image: url(../../assets/midsize/bostonmanor.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent;  }
 .bfs { background-image: url(../../assets/midsize/bfs.png); }
 .burytomorrow { background-image: url(../../assets/midsize/burytomorrow.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
-.chvrches { background-image: url(../../assets/midsize/chvrches.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
-.candc { background-image: url(../../assets/midsize/candc.png); border: 1px solid transparent; }
-.creeper { background-image: url(../../assets/midsize/creeper.png); border: 3px solid transparent; }
+.chvrches-big { background-image: url(../../assets/midsize/chvrches.png); border-top: 12px solid transparent; border-bottom: 12px solid transparent; }
+.chvrches-small { background-image: url(../../assets/midsize/chvrches.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.candc { background-image: url(../../assets/midsize/candc.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+.creeper { background-image: url(../../assets/midsize/creeper.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .thedarkness { background-image: url(../../assets/midsize/thedarkness.png); }
 .devintownsend { background-image: url(../../assets/midsize/devintownsend.png); }
 .thedistillers { background-image: url(../../assets/midsize/thedistillers.png); }
 .down { background-image: url(../../assets/midsize/down.png); }
 .dropkickmurphys { background-image: url(../../assets/midsize/dropkickmurphys.png); }
-.etid { background-image: url(../../assets/midsize/etid.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
-.frankturner { background-image: url(../../assets/midsize/frankturner.png);border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.etid { background-image: url(../../assets/midsize/etid.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.frankturner { background-image: url(../../assets/midsize/frankturner.png);border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .theghostinside { background-image: url(../../assets/midsize/theghostinside.png); }
 .ghostemane {  background-image: url(../../assets/midsize/ghostemane.png); }
+.gogolbordello { background-image: url(../../assets/midsize/gogolbordello.png); }
 .goodcharlotte { background-image: url(../../assets/midsize/goodcharlotte.png); }
 .gvf { background-image: url(../../assets/midsize/gvf.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .hatebreed { background-image: url(../../assets/midsize/hatebreed.png); }
+.jawbreaker { background-image: url(../../assets/midsize/jawbreaker.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .jew { background-image: url(../../assets/midsize/jew.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .kgatlw { background-image: url(../../assets/midsize/kgatlw.png); }
 .themarsvoltamid { background-image: url(../../assets/subs/themarsvolta.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .menzingers { background-image: url(../../assets/midsize/menzingers.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
-.meshuggah { background-image: url(../../assets/midsize/meshuggah.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.meshuggah { background-image: url(../../assets/midsize/meshuggah.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .neckdeep { background-image: url(../../assets/midsize/neckdeep.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .nfg { background-image: url(../../assets/midsize/nfg.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .nofx { background-image: url(../../assets/midsize/nofx.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
@@ -257,7 +287,7 @@ body {
 .refused { background-image: url(../../assets/midsize/refused.png); }
 .riseagainst { background-image: url(../../assets/subs/riseagainst.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
 .saxon { background-image: url(../../assets/midsize/saxon.png); }
-.scarlxrd { background-image: url(../../assets/midsize/scarlxrd.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.scarlxrd { background-image: url(../../assets/midsize/scarlxrd.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .skindred { background-image: url(../../assets/midsize/skindred.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .sws { background-image: url(../../assets/midsize/sws.png); }
 .tssf { background-image: url(../../assets/midsize/tssf.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
@@ -265,40 +295,44 @@ body {
 .wss { background-image: url(../../assets/midsize/wss.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .wildhearts { background-image: url(../../assets/midsize/wildhearts.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
 .yma6 { background-image: url(../../assets/midsize/yma6.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.yungblud { background-image: url(../../assets/midsize/yungblud.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.yungblud { background-image: url(../../assets/midsize/yungblud.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .zebrahead { background-image: url(../../assets/midsize/zebrahead.png); }
 
 /* smallsize */
 
-.alienweaponry { background-image: url(../../assets/smallsize/alienweaponry.png); border: 2px solid transparent; }
+.alcest { background-image: url(../../assets/smallsize/alcest.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
+.alienweaponry { background-image: url(../../assets/smallsize/alienweaponry.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .anaalnathrakh { background-image: url(../../assets/smallsize/anaalnathrakh.png); }
-.andrewwk { background-image: url(../../assets/smallsize/andrewwk.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+.andrewwk { background-image: url(../../assets/smallsize/andrewwk.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .anthrax { background-image: url(../../assets/smallsize/anthrax.png); }
-.aild { background-image: url(../../assets/smallsize/aild.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.aild { background-image: url(../../assets/smallsize/aild.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .tbdm { background-image: url(../../assets/smallsize/tbdm.png); }
 .theblackqueen { background-image: url(../../assets/smallsize/theblackqueen.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .cancerbats { background-image: url(../../assets/smallsize/cancerbats.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
-.carpenterbrut { background-image: url(../../assets/smallsize/carpenterbrut.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+.carpenterbrut { background-image: url(../../assets/smallsize/carpenterbrut.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .codeorange { background-image: url(../../assets/smallsize/codeorange.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
 .cultofluna { background-image: url(../../assets/smallsize/cultofluna.png); border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
+.darkesthour { background-image: url(../../assets/smallsize/darkesthour.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .deicide { background-image: url(../../assets/smallsize/deicide.png); }
-.dimmuborgir { background-image: url(../../assets/smallsize/dimmuborgir.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
+.dimmuborgir { background-image: url(../../assets/smallsize/dimmuborgir.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .dyingfetus { background-image: url(../../assets/smallsize/dyingfetus.png); }
-.electricwizard { background-image: url(../../assets/smallsize/electricwizard.png); }
+.electricwizard { background-image: url(../../assets/smallsize/electricwizard.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+.epica { background-image: url(../../assets/smallsize/epica.png); }
 .evilscarecrow { background-image: url(../../assets/smallsize/evilscarecrow.png); }
-.ghostwriters { background-image: url(../../assets/smallsize/ghostwriters.png); border: 2px solid transparent; }
-.helloween { background-image: url(../../assets/smallsize/helloween.png); border: 3px solid transparent; }
+.ghostwriters { background-image: url(../../assets/smallsize/ghostwriters.png); border-top: 2px solid transparent;  border-bottom: 2px solid transparent;  }
+.helloween { background-image: url(../../assets/smallsize/helloween.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .ho99o9 { background-image: url(../../assets/smallsize/ho99o9.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
 .inme { background-image: url(../../assets/smallsize/inme.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
-.killingjoke { background-image: url(../../assets/smallsize/killingjoke.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
-.kreator { background-image: url(../../assets/smallsize/kreator.png); border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
-.lindemann { background-image: url(../../assets/smallsize/lindemann.png);border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
+.kamelot { background-image: url(../../assets/smallsize/kamelot.png); }
+.killingjoke { background-image: url(../../assets/smallsize/killingjoke.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
+.kreator { background-image: url(../../assets/smallsize/kreator.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.lindemann { background-image: url(../../assets/smallsize/lindemann.png);border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .milkteeth { background-image: url(../../assets/smallsize/milkteeth.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
 .ministry { background-image: url(../../assets/smallsize/ministry.png); }
-.monuments { background-image: url(../../assets/smallsize/monuments.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
-.mrbungle { background-image: url(../../assets/smallsize/mrbungle.png); border: 3px solid transparent; }
+.monuments { background-image: url(../../assets/smallsize/monuments.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.mrbungle { background-image: url(../../assets/smallsize/mrbungle.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .municipalwaste { background-image: url(../../assets/smallsize/municipalwaste.png); }
-.mykur { background-image: url(../../assets/smallsize/mykur.png); border: 2px solid transparent; }
+.mykur { background-image: url(../../assets/smallsize/mykur.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .napalmdeath { background-image: url(../../assets/smallsize/napalmdeath.png); }
 .necrophagist { background-image: url(../../assets/smallsize/necrophagist.png); }
 .neurosis { background-image: url(../../assets/smallsize/neurosis.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
@@ -306,14 +340,15 @@ body {
 .paradiselost { background-image: url(../../assets/smallsize/paradiselost.png); }
 .puddleofmudd { background-image: url(../../assets/smallsize/puddleofmudd.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .ragingspeedhorn { background-image: url(../../assets/smallsize/ragingspeedhorn.png); }
-.russiancircles { background-image: url(../../assets/smallsize/russiancircles.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+.russiancircles { background-image: url(../../assets/smallsize/russiancircles.png); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
 .satyricon { background-image: url(../../assets/smallsize/satyricon.png); }
-.soia { background-image: url(../../assets/smallsize/soia.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
-.sikth { background-image: url(../../assets/smallsize/sikth.png); border: 2px solid transparent; }
+.soia { background-image: url(../../assets/smallsize/soia.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+.sikth { background-image: url(../../assets/smallsize/sikth.png);border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .sftp { background-image: url(../../assets/smallsize/sftp.png); }
-.suicidaltendencies { background-image: url(../../assets/smallsize/suicidaltendencies.png); border: 2px solid transparent; }
+.suicidaltendencies { background-image: url(../../assets/smallsize/suicidaltendencies.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .suicidesilence { background-image: url(../../assets/smallsize/suicidesilence.png); }
-.testament { background-image: url(../../assets/smallsize/testament.png); border: 2px solid transparent; }
+.sylosis { background-image: url(../../assets/smallsize/sylosis.png); }
+.testament { background-image: url(../../assets/smallsize/testament.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .therapy { background-image: url(../../assets/smallsize/therapy.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .thyartismurder { background-image: url(../../assets/smallsize/thyartismurder.png); }
 .venomprison { background-image: url(../../assets/smallsize/venomprison.png); }
