@@ -18,13 +18,32 @@ export class DownloadfestivalComponent {
   public midsized = thirdTierBands
   public smallsized = fourthTierBands
 
-  fridayHeadliner; saturdayHeadliner; sundayHeadliner; fridaySub1; saturdaySub1; sundaySub1; fridaySub2; saturdaySub2; sundaySub2; fridaySecondStageHeadliner; saturdaySecondStageHeadliner; sundaySecondStageHeadliner; fridaySecondStageSub; saturdaySecondStageSub; sundaySecondStageSub; fridayThirdStageHeadliner; saturdayThirdStageHeadliner; sundayThirdStageHeadliner; fridayFourthStageHeadliner; saturdayFourthStageHeadliner; sundayFourthStageHeadliner;
+  public fridayHeadliner: string
+  public saturdayHeadliner: string
+  public sundayHeadliner: string
+  public fridaySub1: string
+  public saturdaySub1: string
+  public sundaySub1: string
+  public fridaySub2: string
+  public saturdaySub2: string
+  public sundaySub2: string
+  public fridaySecondStageHeadliner: string
+  public saturdaySecondStageHeadliner: string
+  public sundaySecondStageHeadliner: string
+  public fridaySecondStageSub: string
+  public saturdaySecondStageSub: string
+  public sundaySecondStageSub: string
+  public fridayThirdStageHeadliner: string
+  public saturdayThirdStageHeadliner: string
+  public sundayThirdStageHeadliner: string
+  public fridayFourthStageHeadliner: string
+  public saturdayFourthStageHeadliner: string
+  public sundayFourthStageHeadliner: string
 
-  public setLogo(position: string, bandname: any): any {
+  public setLogo(position: string, bandname: string): any {
     const getMatchingElement = document.getElementById(position)
-    debugger;
+
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
-    event.target["selectedIndex"] = 0
   }
 
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
