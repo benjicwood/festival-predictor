@@ -15,7 +15,7 @@
 				<option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
 			</select>
 	  	</div>
-	
+
       	<div id="sunday-headliner" class="grid-item-headliner" type="text">
 			<select class="grid-item" [(ngModel)]="sundayHeadliner" class="bands-dropdown" (change)="setLogo('sunday-headliner', sundayHeadliner)">
 				<option *ngFor="let band of headliners" [value]="band.value">{{band.name}}</option>
@@ -39,7 +39,7 @@
 				<option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
 			</select>
 	  	</div>
-	
+
 	  	<div id="friday-sub2" class="grid-item-sub" type="text">
 			<select class="grid-item" [(ngModel)]="fridaySub2" class="bands-dropdown" (change)="setLogo('friday-sub2', fridaySub2)">
 				<option *ngFor="let band of subsExtended" [value]="band.value">{{band.name}}</option>
@@ -162,7 +162,7 @@
       	<div style="height:15px"></div>
       	<div stlye="height:15px"></div>
 	  	<div style="height:15px"></div>
-	  
+
 	  	<div id="friday-fourth-stage-headliner" class="grid-item-second-stage-sub" type="text">
 			<select class="grid-item" [(ngModel)]="fridayFourthStageHeadliner" class="bands-dropdown" (change)="setLogo('friday-fourth-stage-headliner', fridayFourthStageHeadliner)">
 				<option *ngFor="let band of fourthStage" [value]="band.value">{{band.name}}</option>
@@ -200,7 +200,7 @@
 		<div style="height:100px; text-align: center; padding-top: 60px;">
 			<button class="button" (click)="printQ()">Download Poster</button>
 		</div>
-   
+
     </div>
 	</div>
 </body>

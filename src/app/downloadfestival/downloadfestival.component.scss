@@ -112,11 +112,16 @@ body {
 
 .bands-dropdown {
   float:right;
-  color: white;
+  color: #ffffff00;
   box-shadow: none;
   width: 100%;
   height: 100%;
-  font-size: 0;
+  // font-size: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-options {
+  background-color: red;
 }
 
 .none { background-image: none; }
