@@ -17,8 +17,17 @@ body {
   padding: 0;
 }
 
-.poster {
+.poster-png {
   background-image: url(../../assets/img/downloadfestival2021.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1000px;
+  display: flex;
+}
+
+.poster-jpg {
+  background-image: url(../../assets/img/downloadfestival2021.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -52,12 +61,20 @@ body {
   text-align: center;
 }
 
-.grid-container {
+.grid-container-png {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 240px 12px 0 12px;
   height: auto;
   width: 749px;
+}
+
+.grid-container-jpg {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 170px 12px 0 12px;
+  height: auto;
+  width: 660px;
 }
 
 .grid-item-headliner {
@@ -89,18 +106,38 @@ body {
 }
 
 .grid-item {
+  @include grid-item-standards;
+  @include logo-position;
+   font-size: 15px;
+   height: 25px;
+ }
+
+.grid-item-png {
  @include grid-item-standards;
  @include logo-position;
   font-size: 15px;
   height: 25px;
 }
 
-.grid-item-midsize {
+.grid-item-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+   font-size: 15px;
+   height: 22px;
+ }
+
+.grid-item-midsize-png {
   @include grid-item-standards;
   @include logo-position;
   font-size: 13px;
   height: 25px;
+}
 
+.grid-item-midsize-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 20px;
 }
 
 .grid-item-third-stage {
@@ -108,6 +145,44 @@ body {
   @include logo-position;
   font-size: 13px;
   height: 20px;
+}
+
+.grid-item-fourth-stage-png {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 20px;
+}
+
+.grid-item-fourth-stage-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 17px;
+}
+
+.grid-divider-png {
+  height: 10px;
+}
+
+.grid-divider-jpg {
+  height: 20px;
+}
+
+.grid-divider-2-png {
+  height: 10px;
+}
+
+.grid-divider-2-jpg {
+  height: 15px;
+}
+
+.grid-divider-3-png {
+  height: 15px;
+}
+
+.grid-divider-3-jpg {
+  height: 12px;
 }
 
 .bands-dropdown {
@@ -360,3 +435,95 @@ body {
 .thyartismurder { background-image: url(../../assets/smallsize/thyartismurder.png); }
 .venomprison { background-image: url(../../assets/smallsize/venomprison.png); }
 .watain { background-image: url(../../assets/smallsize/watain.png); }
+
+
+
+// switch
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5E5E5E;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #b5131a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #b5131a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.grid-item-title {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+     grid-column-start: 1;
+     grid-column-end: 4;
+     border: white;
+     border-radius: 1px;
+     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+     padding: 5px;
+     color: white;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-weight: 700;
+     font-size: 15px;
+     text-align: center;
+     height: 25px;
+   }
+
+   .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px 0 0 12px;
+    height: 500px;
+    width: 737px;
+  }

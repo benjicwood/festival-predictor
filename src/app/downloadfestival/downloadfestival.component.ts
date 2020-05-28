@@ -42,10 +42,17 @@ export class DownloadfestivalComponent {
   public saturdayFourthStageHeadliner: string
   public sundayFourthStageHeadliner: string
 
+  public posterDesign: string = 'png';
+
   public setLogo(position: string, bandname: string): any {
     const getMatchingElement = document.getElementById(position)
 
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
+  }
+
+  public choosePoster(): any {
+    this.posterDesign === 'png' ?  this.posterDesign = 'jpg' : this.posterDesign = 'png'
+    console.log(this.posterDesign);
   }
 
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
