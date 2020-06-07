@@ -74,9 +74,11 @@
     <input id="saturday-third-stage-headliner" class="grid-item-second-stage-sub" type="text">
     <input id="sunday-third-stage-headliner" class="grid-item-second-stage-sub" type="text">
 
-	  <div style="height: 5px"></div>
-    <div stlye="height: 5px"></div>
-    <div style="height: 5px"></div>
+    <ng-container *ngIf="posterDesign === 'png'">
+      <div style="height: 5px"></div>
+      <div stlye="height: 5px"></div>
+      <div style="height: 5px"></div>
+   </ng-container>
 
     <input class="grid-item-third-stage" type="text">
     <input class="grid-item-third-stage" type="text">
@@ -124,20 +126,35 @@
 
 	</div>
 
-		<div style="height: 100px; text-align: center; padding-top: 60px;">
+		<div class="button-{{posterDesign}}">
 			<button class="button" (click)="printQ()">Download Poster</button>
 		</div>
 
     </div>
 
-    <label class="switch">
-      <input type="checkbox" (click)="choosePoster()">
-      <span class="slider round"></span>
-    </label>
-
 <!-- -->
 
+  <div>
+
+    <div class="grid-item-title">Poster Style</div>
+
+    <div class="year-selector">
+      <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" (click)="choosePoster()" checked>
+        <label for="toggle-on" class="btn">2020</label>
+      <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" (click)="choosePoster()" type="radio">
+        <label for="toggle-off" class="btn">2021</label>
+    </div>
+
   <div class="grid-container2">
+
+    <!-- <div class="grid-item" style="text-align: right">Grey Poster (2020 updated)</div>
+    <div class="grid-item">
+      <label class="switch">
+        <input type="checkbox" (click)="choosePoster()">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="grid-item" style="text-align: left">Red 2021 Poster</div> -->
 
     <div class="grid-item-title">Main Stage</div>
 
@@ -265,6 +282,7 @@
         <option *ngFor="let band of fourthStage" [value]="band.value">{{band.name}}</option>
       </select>
     </div>
+  </div>
 
   </div>
   </div>
