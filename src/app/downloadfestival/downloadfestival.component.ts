@@ -51,7 +51,7 @@ export class DownloadfestivalComponent {
   }
 
   public choosePoster(): any {
-    this.posterDesign === 'png' ?  this.posterDesign = 'jpg' : this.posterDesign = 'png'
+    this.posterDesign === 'png' ? this.posterDesign = 'jpg' : this.posterDesign = 'png'
     console.log(this.posterDesign);
   }
 
@@ -63,7 +63,7 @@ export class DownloadfestivalComponent {
 
     const variableWidth = this.posterDesign === 'png' ? 632 : 569;
 
-      html2canvas(document.querySelector('#printposter'),
+    html2canvas(document.querySelector('#printposter'),
       { scale: quality }
     ).then(canvas => {
       const pdf = new jsPDF({
@@ -78,6 +78,6 @@ export class DownloadfestivalComponent {
       pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 0, 632)
       pdf.save(filename)
     })
-}
   }
 }
+
