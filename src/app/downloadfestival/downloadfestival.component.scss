@@ -17,8 +17,17 @@ body {
   padding: 0;
 }
 
-.poster {
+.poster-png {
   background-image: url(../../assets/img/downloadfestival2021.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1000px;
+  display: flex;
+}
+
+.poster-jpg {
+  background-image: url(../../assets/img/downloadfestival2021.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -52,12 +61,20 @@ body {
   text-align: center;
 }
 
-.grid-container {
+.grid-container-png {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 240px 12px 0 12px;
   height: auto;
   width: 749px;
+}
+
+.grid-container-jpg {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 170px 12px 0 12px;
+  height: auto;
+  width: 660px;
 }
 
 .grid-item-headliner {
@@ -89,18 +106,38 @@ body {
 }
 
 .grid-item {
+  @include grid-item-standards;
+  @include logo-position;
+   font-size: 15px;
+   height: 25px;
+ }
+
+.grid-item-png {
  @include grid-item-standards;
  @include logo-position;
   font-size: 15px;
   height: 25px;
 }
 
-.grid-item-midsize {
+.grid-item-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+   font-size: 15px;
+   height: 22px;
+ }
+
+.grid-item-midsize-png {
   @include grid-item-standards;
   @include logo-position;
   font-size: 13px;
   height: 25px;
+}
 
+.grid-item-midsize-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 20px;
 }
 
 .grid-item-third-stage {
@@ -108,6 +145,44 @@ body {
   @include logo-position;
   font-size: 13px;
   height: 20px;
+}
+
+.grid-item-fourth-stage-png {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 20px;
+}
+
+.grid-item-fourth-stage-jpg {
+  @include grid-item-standards;
+  @include logo-position;
+  font-size: 13px;
+  height: 17px;
+}
+
+.grid-divider-png {
+  height: 10px;
+}
+
+.grid-divider-jpg {
+  height: 20px;
+}
+
+.grid-divider-2-png {
+  height: 10px;
+}
+
+.grid-divider-2-jpg {
+  height: 15px;
+}
+
+.grid-divider-3-png {
+  height: 15px;
+}
+
+.grid-divider-3-jpg {
+  height: 12px;
 }
 
 .bands-dropdown {
@@ -135,9 +210,10 @@ body {
 .a7x { background-image: url(../../assets/headliners/a7x.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .biffyclyro { background-image: url(../../assets/headliners/biffyclyro.png); }
 .blink182 { background-image: url(../../assets/headliners/blink182.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+.bonjovi { background-image: url(../../assets/headliners/bonjovi.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .bmth { background-image: url(../../assets/headliners/bmth.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .thecure { background-image: url(../../assets/headliners/thecure.png); border-top: 12px solid transparent; border-bottom: 12px solid transparent; }
-.defleppard { background-image: url(../../assets/headliners/defleppard.png); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
+.defleppard { background-image: url(../../assets/headliners/defleppard.png); border-top: 10px solid transparent; border-bottom: 10px solid transparent; }
 .foofighters { background-image: url(../../assets/headliners/foofighters.png); }
 .ghost { background-image: url(../../assets/headliners/ghost.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .greenday { background-image: url(../../assets/headliners/greenday.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
@@ -151,8 +227,10 @@ body {
 .paramore { background-image: url(../../assets/headliners/paramore.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .pearljam { background-image: url(../../assets/headliners/pearljam.png); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
 .qotsa { background-image: url(../../assets/headliners/qotsa.png); }
+.radiohead { background-image: url(../../assets/headliners/radiohead.png); border-top: 12px solid transparent; border-bottom: 12px solid transparent; }
 .ratm { background-image: url(../../assets/headliners/ratm.png); }
 .rammstein { background-image: url(../../assets/headliners/rammstein.png); border-top: 1px solid transparent; }
+.rhcp { background-image: url(../../assets/headliners/rhcp.png); }
 .slipknot { background-image: url(../../assets/headliners/slipknot.png); }
 .soad { background-image: url(../../assets/headliners/soad.png); }
 .tool { background-image: url(../../assets/headliners/tool.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
@@ -175,7 +253,7 @@ body {
 .clutch-big { background-image: url(../../assets/subs/clutch.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .clutch-small { background-image: url(../../assets/subs/clutch.png); }
 .converge { background-image: url(../../assets/subs/converge.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
-.deftones { background-image: url(../../assets/subs/deftones.png); border-top: 14px solid transparent; border-bottom: 14px solid transparent; }
+.deftones { background-image: url(../../assets/subs/deftones.png); border-top: 15px solid transparent; border-bottom: 15px solid transparent; }
 .disturbed { background-image: url(../../assets/subs/disturbed.png); }
 .donbroco { background-image: url(../../assets/subs/donbroco.png); }
 .entershikari { background-image: url(../../assets/subs/entershikari.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
@@ -225,6 +303,7 @@ body {
 .runthejewels { background-image: url(../../assets/subs/runthejewels.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .sabaton { background-image: url(../../assets/subs/sabaton.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .shinedown { background-image: url(../../assets/subs/shinedown.png); border-top: 16px solid transparent; border-bottom: 16px solid transparent; }
+.tsp { background-image: url(../../assets/subs/tsp.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
 .staind { background-image: url(../../assets/subs/staind.png); border-top: 2px solid transparent; border-bottom: 2px solid transparent; }
 .steelpanther { background-image: url(../../assets/subs/steelpanther.png);border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .stonesour { background-image: url(../../assets/subs/stonesour.png); border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
@@ -267,7 +346,7 @@ body {
 .dropkickmurphys { background-image: url(../../assets/midsize/dropkickmurphys.png); }
 .etid { background-image: url(../../assets/midsize/etid.png); border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
 .frankturner { background-image: url(../../assets/midsize/frankturner.png); border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
-.ffaf { background-image: url(../../assets/midsize/ffaf.png); }
+.ffaf { background-image: url(../../assets/midsize/ffaf.png); border-top: 4px solid transparent; border-bottom: 4px solid transparent; }
 .theghostinside { background-image: url(../../assets/midsize/theghostinside.png); }
 .ghostemane {  background-image: url(../../assets/midsize/ghostemane.png); }
 .gogolbordello { background-image: url(../../assets/midsize/gogolbordello.png); }
@@ -360,3 +439,282 @@ body {
 .thyartismurder { background-image: url(../../assets/smallsize/thyartismurder.png); }
 .venomprison { background-image: url(../../assets/smallsize/venomprison.png); }
 .watain { background-image: url(../../assets/smallsize/watain.png); }
+
+
+
+// switch
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5E5E5E;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #b5131a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #b5131a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.grid-item-title {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+     grid-column-start: 1;
+     grid-column-end: 4;
+     border: white;
+     border-radius: 1px;
+     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+     padding: 5px;
+     color: white;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-weight: 700;
+     font-size: 15px;
+     text-align: center;
+     height: 25px;
+   }
+
+   .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px 0 0 12px;
+    height: 500px;
+  }
+
+
+  @import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+/*  For list */
+ul{
+    text-align:left;
+    margin:5% 0 0;
+    padding:0;
+    list-style-position:inside;
+}
+li{
+    margin: 0 0 0 5%;
+    padding:0;
+}
+
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+}
+.img2{
+    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
+}
+.img3{
+    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
+}
+
+/*  following just for the demo */
+
+
+body {
+    font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    text-align:center;
+    background:#ECECEC;
+}
+p{
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.numbers{
+    font-weight:900;
+    font-size:100px;
+}
+
+#bottom {
+    clear:both;
+    margin:0 1.66%;
+    width:89.68%;
+    padding: 3.5%;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+#bottom p{
+    text-align:center;
+    line-height:2em;
+}
+#bottom a{
+    color: #000;
+    text-decoration:none;
+    border:1px solid #000;
+    padding:10px 20px 12px;
+    line-height:70px;
+    background:#ccc;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#bottom a:hover{
+    background:#ECECEC;
+    border:1px solid #fff;
+}
+
+
+.year-selector {
+  padding-top: 5px
+}
+
+.button-png {
+  height: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.button-jpg {
+  height: 100px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.btn{
+  border: 3px solid #1a1a1a;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  transition: background 600ms ease, color 600ms ease;
+}
+
+input[type="radio"].toggle {
+  display: none;
+  & + label{
+      cursor: pointer;
+      min-width: 90px;
+      &:hover{
+          background: none;
+          color: #1a1a1a;
+      }
+      &:after{
+          background: #1a1a1a;
+          content: "";
+          height: 100%;
+          position: absolute;
+          top: 0;
+          transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+          width: 100%;
+          z-index: -1;
+      }
+  }
+  &.toggle-left + label {
+      border-right: 0;
+      &:after{
+          left: 100%
+      }
+  }
+  &.toggle-right + label{
+      margin-left: -5px;
+      &:after{
+          left: -100%;
+      }
+  }
+  &:checked + label {
+      cursor: default;
+      color: #fff;
+      transition: color 200ms;
+      &:after{
+          left: 0;
+      }
+  }
+}

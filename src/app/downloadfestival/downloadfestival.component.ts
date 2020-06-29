@@ -42,23 +42,34 @@ export class DownloadfestivalComponent {
   public saturdayFourthStageHeadliner: string
   public sundayFourthStageHeadliner: string
 
+  public posterDesign: string = 'png';
+
   public setLogo(position: string, bandname: string): any {
     const getMatchingElement = document.getElementById(position)
 
     getMatchingElement.classList.length === 1 ? getMatchingElement.classList.add(bandname) : getMatchingElement.classList.replace(getMatchingElement.classList[1], bandname)
   }
 
+  public choosePoster(): any {
+    this.posterDesign === 'png' ?  this.posterDesign = 'jpg' : this.posterDesign = 'png'
+    console.log(this.posterDesign);
+  }
+
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
   public printQ(quality = 3): any { // quality between 0 and 4
+    // console.log(this.posterDesign)
+    // return;
     const filename = 'dl2020lineup.pdf'
 
-    html2canvas(document.querySelector('#printposter'),
+    const variableWidth = this.posterDesign === 'png' ? 632 : 569;
+
+      html2canvas(document.querySelector('#printposter'),
       { scale: quality }
     ).then(canvas => {
       const pdf = new jsPDF({
         orientation: 'portrait',
         unit: 'px',
-        format: [842, 632]
+        format: [842, variableWidth]
       }) //'p', 'px'); // px or in (inch?) 'a4'
 
       let divWidth = pdf.internal.pageSize.getWidth()
@@ -67,6 +78,6 @@ export class DownloadfestivalComponent {
       pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 0, 632)
       pdf.save(filename)
     })
+}
   }
-
 }
