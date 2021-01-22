@@ -56,7 +56,7 @@ export class DownloadfestivalComponent {
   }
 
   // improve the PDF sharpness by scaling up the HTML node tree to render as an image before getting pasted on the PDF
-  public printQ(quality = 3): any { // quality between 0 and 4
+  public printQ(quality = 4): any { // quality between 0 and 4
     // console.log(this.posterDesign)
     // return;
     const filename = 'dl2020lineup.pdf'
