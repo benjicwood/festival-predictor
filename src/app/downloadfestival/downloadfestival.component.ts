@@ -20,9 +20,9 @@ export class DownloadfestivalComponent {
   public thirdStage = thirdStageList
   public fourthStage = fourthStageList
 
-  public fridayHeadliner: string
-  public saturdayHeadliner: string
-  public sundayHeadliner: string
+  public fridayHeadliner: string = 'kiss'
+  public saturdayHeadliner: string = 'ironmaiden'
+  public sundayHeadliner: string = 'biffyclyro'
   public fridaySub1: string
   public saturdaySub1: string
   public sundaySub1: string
