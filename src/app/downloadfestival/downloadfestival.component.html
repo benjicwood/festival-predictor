@@ -5,9 +5,9 @@
 
 	<div class="grid-container-{{posterDesign}}" id="grid-container">
   <!-- Main Stage -->
-    <input id="friday-headliner" class="grid-item-headliner kiss" type="text">
-    <input id="saturday-headliner" class="grid-item-headliner ironmaiden" type="text">
-    <input id="sunday-headliner" class="grid-item-headliner biffyclyro" type="text">
+    <input id="friday-headliner" class="grid-item-headliner" type="text">
+    <input id="saturday-headliner" class="grid-item-second-stage-headliner" type="text">
+    <input id="sunday-headliner" class="grid-item-headliner" type="text">
     <input id="friday-sub1" class="grid-item-sub" type="text">
     <input id="saturday-sub1" class="grid-item-sub" type="text">
     <input id="sunday-sub1" class="grid-item-sub" type="text">
@@ -178,17 +178,17 @@
     <!-- Main Stage Subs -->
     <div class="grid-item" type="text">
       <select [(ngModel)]="fridaySub1" style="float:right; color:white" (change)="setLogo('friday-sub1', fridaySub1)">
-        <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+        <option *ngFor="let band of subsExtended" [value]="band.value">{{band.name}}</option>
       </select>
     </div>
     <div class="grid-item" type="text">
       <select [(ngModel)]="saturdaySub1" style="float:right; color:white" (change)="setLogo('saturday-sub1', saturdaySub1)">
-        <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+        <option *ngFor="let band of subsExtended" [value]="band.value">{{band.name}}</option>
       </select>
     </div>
     <div class="grid-item" type="text">
       <select [(ngModel)]="sundaySub1" style="float:right; color:white" (change)="setLogo('sunday-sub1', sundaySub1)">
-        <option *ngFor="let band of subs" [value]="band.value">{{band.name}}</option>
+        <option *ngFor="let band of subsExtended" [value]="band.value">{{band.name}}</option>
       </select>
     </div>
 
